@@ -1,0 +1,759 @@
+<html lang="en" class="plt-desktop ios hydrated" mode="ios"><head>
+<base href="/h5/">    <meta charset="utf-8">
+    <title> </title>
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="320" name="MobileOptimized">
+    <!-- CSP内容安全策略，升级https网页下所有的http连接为https协议，浏览器默认值是 block-all-mixed-content https网页下不得加载http资源 -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+    <meta content="webkit" name="renderer">
+    <meta content="webkit" name="force-rendering">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <style>
+        pre {
+            margin-top: 0px;
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+        .innerp{
+            font-size: 14px;color: #000;margin-bottom: 10px;
+            line-height: 22px;
+        }
+        .shows{
+            display: block!important;
+        }
+        .hiddenClass{
+            display: none!important;
+        }
+        .inner{
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+            color: #6f6fff;
+            position: relative;
+            padding-left: 20px;
+        }
+        .inner::before {
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 8px;
+    top: 18px;
+    background: #6f6fff;
+    color: #6f6fff;
+    content: '';
+}
+        input:focus {
+  outline: none;
+}
+   </style><link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1976d2">
+    
+    
+    <script async="" src="https://assets.giocdn.com/sdk/webjs/gdp-full.js"></script><script type="text/javascript">
+        var CZ_CONFIG={dataSourceType:'H5',gioConfig:{hashtag: true}};
+        !function(){var e,i,t,o=!1;CZ_CONFIG&&(o=CZ_CONFIG.lazyInit,i=CZ_CONFIG.dataSourceType,e=CZ_CONFIG.wechatAppId,t=CZ_CONFIG.gioConfig);var n,a,s,r,c,d,p,f,g,w,l,u,m,b=!(!window.CZ_GLOBAL_TEST_ENV&&!window.CZ_LOCAL);b?(n="8495d94eb6518445",a="https://gio-hub-test.jirongyunke.com",p="b234e179d4db4ebc",f="a20eb85b3b8be058",g="9d84f588fe724596",w="8f2278c618ad0231",l="8e0990893228380c",u="9f479df0b718daa9",m="95af23d7779c83c8"):(n="b1db2c4f9f474a66",a="https://gio-hub.jirongyunke.com",p="8f39def00025604a",f="bffb1662d5eec2c9",g="98582f06f01ccc3c",w="ab2c80f526265b80",l="99dea4b3993f3a7b",u="9172cfc0069caa20",m="b38a8a5ded0ecca2");var h=!1;function _(e,i){const t=e.split("."),o=i.split("."),n=Math.max(t.length,o.length);for(let e=0;e<n;e++){const i=+t[e]||0,n=+o[e]||0;if(i<n)return-1;if(i>n)return 1}return 0}function v(){window.gioType="saas",function(e,i,t,o,n){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)},t=i.createElement("script"),tag=i.getElementsByTagName("script")[0],t.async=1,t.src=("https:"==document.location.protocol?"https://":"http://")+"assets.growingio.com/2.1/gio.js",tag.parentNode.insertBefore(t,tag)}(window,document,"script",0,"gio"),gio("init","b2beec0885eb7a3e",{}),gio("config",{hashtag:!0}),gio("send"),window.webViewRequestSend=!1}function N(){if(h)throw new Error("gio已经初始化");window.gioType="op",h=!0,function(e,i,t,o,n){var a;e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},n=n||"vds",e._gio_local_vds=n,e[n]=null!==(a=e[n])&&void 0!==a?a:{},e[n].namespace=o;var s=i.createElement("script"),r=i.getElementsByTagName("script")[0];s.async=!0,s.src="https://assets.giocdn.com/sdk/webjs/gdp-full.js",r.parentNode.insertBefore(s,r)}(window,document,0,"gio");var i={debug:b,packageName:d,appId:r,version:c,serverUrl:a},o=t||{};for(var p in o)o[p];for(var p in i);e?gio("init",n,s,e,i):gio("init",n,s,i)}window.initGio=function(i,o,n){if("JR"===i)s=l;else if("NWD"===i)s=u;else{if("H5"!==i)throw new Error("dataSourceType错误");s=m}o&&(e=o),n&&(t=n),N()};var C=window.navigator.userAgent,y=C.match(/ChuangZhen-APP-(.*)\/([\d\\.]+)/);if(y){var O=y[1],G=y[2];b||"GR"===O&&_(G,"4.10.0")>=0||"NWD"===O&&_(G,"10.1.0")>=0?(c=G,C.indexOf("Android")>-1||C.indexOf("Linux")>-1?"GR"===O?(s=p,d="com.imassbank.loan"):"NWD"===O&&(s=g,d="com.niwodai.universityloan"):(C.match(/\(i[^;]+;( U;)? CPUa.+Mac OS X/)||C.indexOf("iPhone")>-1||C.indexOf("Mac")>-1||C.indexOf("iPad")>-1)&&("GR"===O?(s=f,d="com.geerong.loan"):"NWD"===O&&(s=w,d="com.niwodai.jiekuan")),e=null,N()):v()}else{var j=/micromessenger/i.test(C),k=j&&/miniProgram/i.test(C),I=/toutiaomicroapp/i.test(C);if(k||I){var S=location.href.split("?")[1];S&&(S=S.split("#")[0]);var P={};if(S)for(var x=S.split("&"),Z=x.length;Z--;){var E=x[Z].split("=");P[E[0]]=E[1]}if(P.giodatasourceid)try{sessionStorage.setItem("_initSearchParams",JSON.stringify(P))}catch(e){console.error(e)}else try{P=JSON.parse(sessionStorage.getItem("_initSearchParams"))||{}}catch(e){console.error(e)}window.initSearchParams=P,window.isMPGR="geerong"===P._applet_source,window.isMPNWD="nwd"===P._applet_source,s=P.giodatasourceid,r=P.gioappid,c=P._applet_app_version,e=null,N(),P._applet_custid&&gio("setGeneralProps",{custId:P._applet_custid})}else if(window.loan_jsinterface||window.webkit&&window.webkit.messageHandlers&&(window.webkit.messageHandlers.NWDAppJSBridge||window.webkit.messageHandlers.back))v();else if(!o){if(!CZ_CONFIG)throw new Error("未设置CZ_CONFIG");initGio(i)}j?document.write('<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"><\/script>'):I&&document.write('<script src="https://lf1-cdn-tos.bytegoofy.com/goofy/developer/jssdk/jssdk-1.1.0.js"><\/script>')}}();
+    </script>
+     
+    <script>
+        var SENTRY_KEY = 'https://ceea4e1231064738a01f0e41b17fec57@sentry.io/1445631';
+        var ENV = 'prod';
+        console.log('env',ENV);
+    </script>
+    
+   
+<link rel="stylesheet" href="https://al-h5.geerong.com/h5/styles.b2cb9066e6fb9577eaf8.css"><style>.app-wrapper[_ngcontent-pvc-c0]{max-width:600px;margin:0 auto}</style><style>ion-card[_ngcontent-pvc-c1]{--background:#FFFFFF;position:relative;z-index:9999;margin-top:-45px!important}ion-content[_ngcontent-pvc-c1]{--background:#F8FDFD!important}ion-col[_ngcontent-pvc-c1]{background-color:#eee;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;padding:1.4rem .1rem}ion-grid[_ngcontent-pvc-c1]   p[_ngcontent-pvc-c1]{height:10px}.btn-submit[_ngcontent-pvc-c1]{--border-radius:25px;--background:linear-gradient(90deg,rgba(133,133,255,1) 0%,rgba(77,77,255,1) 100%);--box-shadow:0px 1px 4px 0px rgba(255,255,255,0.3);--background-focused:linear-gradient(90deg,rgba(133,133,255,1) 0%,rgba(77,77,255,1) 100%);--background-activated:linear-gradient(90deg,rgba(133,133,255,1) 0%,rgba(77,77,255,1) 100%);margin-top:10px}.content-bg[_ngcontent-pvc-c1]{background:#f8fdfd;top:0;bottom:0;left:0;right:0}.captcha-position[_ngcontent-pvc-c1]{top:10px;bottom:10px;right:10px}.login-input[_ngcontent-pvc-c1]{--background:transparent;--padding-start:0;--padding-end:0}.border-danger[_ngcontent-pvc-c1]{border:1px solid}.login-input-font[_ngcontent-pvc-c1]{font-size:.9em}.bg-input[_ngcontent-pvc-c1]{background:0 0;border:none;outline:0;padding-left:14px}.bg-input[_ngcontent-pvc-c1]::-webkit-input-placeholder{color:#999}.login-amount[_ngcontent-pvc-c1]{position:relative}.login-amount[_ngcontent-pvc-c1]   img[_ngcontent-pvc-c1]{display:block}.login-amount[_ngcontent-pvc-c1]   .login-text[_ngcontent-pvc-c1]{position:absolute;top:0;z-index:99}.login-amount[_ngcontent-pvc-c1]   .login-text[_ngcontent-pvc-c1]   p[_ngcontent-pvc-c1]{color:#fff}.login-amount[_ngcontent-pvc-c1]   .login-text[_ngcontent-pvc-c1]   .login-p1[_ngcontent-pvc-c1]{margin-top:6rem;font-size:17px}.login-amount[_ngcontent-pvc-c1]   .login-text[_ngcontent-pvc-c1]   .login-p2[_ngcontent-pvc-c1]{font-size:42px;font-weight:700}.amount[_ngcontent-pvc-c1]{position:absolute;width:100%;bottom:3.4rem;color:#fff;font-size:2.2em;font-weight:700;font-family:DIN Alternate}.journalism-list[_ngcontent-pvc-c1]{overflow:hidden;position:relative;padding-left:25px;height:30px}.journalism-list[_ngcontent-pvc-c1]   img[_ngcontent-pvc-c1]{width:15px;position:absolute;top:5px;left:5px}.journalism-list[_ngcontent-pvc-c1]   ul[_ngcontent-pvc-c1]{float:left;padding-left:0;margin:0;width:100%;animation:20s linear infinite change;-webkit-animation:20s linear infinite change;-moz-animation:20s linear infinite change;-o-animation:20s linear infinite change}@-webkit-keyframes change{0%{margin-top:0}10%,5%{margin-top:-25px}15%,20%{margin-top:-50px}25%,30%{margin-top:-75px}35%,40%{margin-top:-100px}45%,50%{margin-top:-125px}55%,60%{margin-top:-150px}65%,70%{margin-top:-175px}75%,80%{margin-top:-200px}85%,90%{margin-top:-225px}100%,95%{margin-top:-250px}}@-moz-keyframes change{0%{margin-top:0}10%,5%{margin-top:-25px}15%,20%{margin-top:-50px}25%,30%{margin-top:-75px}35%,40%{margin-top:-100px}45%,50%{margin-top:-125px}55%,60%{margin-top:-150px}65%,70%{margin-top:-175px}75%,80%{margin-top:-200px}85%,90%{margin-top:-225px}100%,95%{margin-top:-250px}}@keyframes change{0%{margin-top:0}10%,5%{margin-top:-25px}15%,20%{margin-top:-50px}25%,30%{margin-top:-75px}35%,40%{margin-top:-100px}45%,50%{margin-top:-125px}55%,60%{margin-top:-150px}65%,70%{margin-top:-175px}75%,80%{margin-top:-200px}85%,90%{margin-top:-225px}100%,95%{margin-top:-250px}}.journalism-list[_ngcontent-pvc-c1]   ul[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]{width:100%;height:25px;list-style:none;line-height:25px;font-size:13px;color:#666;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.journalism-list[_ngcontent-pvc-c1]   ul[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   span[_ngcontent-pvc-c1]{color:#333;font-weight:600}.reason[_ngcontent-pvc-c1]{background-image:url(https://al-h5.geerong.com/h5/reason-bg.9bdff2b581194d52362b.png);overflow:hidden;margin-top:20px;padding-bottom:16px;-webkit-background-size:100% 100%;background-size:100% 100%}.reason[_ngcontent-pvc-c1]   h4[_ngcontent-pvc-c1]{font-size:18px;color:#fff;margin-top:35px;line-height:30px;text-align:center}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]{margin:0 16px;background:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:15px;position:relative;overflow:hidden}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .reason-in-icon[_ngcontent-pvc-c1]{overflow:hidden;padding:0}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .reason-in-icon[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]{width:33.33333%;float:left;list-style:none}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .reason-in-icon[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   h5[_ngcontent-pvc-c1]{font-size:13px;margin:5px 0 0;line-height:20px;text-align:center}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .reason-in-icon[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   p[_ngcontent-pvc-c1]{font-size:12px;color:#999;margin:0;text-align:center}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .reason-in-icon[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   div[_ngcontent-pvc-c1]{width:65px;height:65px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;background:#84baed;overflow:hidden;margin:0 auto}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .reason-in-icon[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   div[_ngcontent-pvc-c1]   img[_ngcontent-pvc-c1]{width:35px;height:35px;margin:15px auto 0}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   h4[_ngcontent-pvc-c1]{color:#666}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]{overflow:hidden;height:370px}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]{overflow:hidden;padding:0;margin-bottom:0}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]{background:#efefef;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;padding:10px 8px;overflow:hidden;margin-bottom:10px}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   div[_ngcontent-pvc-c1]{overflow:hidden}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   div[_ngcontent-pvc-c1]   img[_ngcontent-pvc-c1]{width:20px;height:20px;float:left;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin-right:5px}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   div[_ngcontent-pvc-c1]   span[_ngcontent-pvc-c1]{font-size:12px;color:#333}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   div[_ngcontent-pvc-c1]   .fr[_ngcontent-pvc-c1]{float:right;font-size:12px;color:#fff;background:#84baed;padding:2px 10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;margin-left:5px}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   p[_ngcontent-pvc-c1]{font-size:12px;color:#666}.reason[_ngcontent-pvc-c1]   .reason-in[_ngcontent-pvc-c1]   .comments-show[_ngcontent-pvc-c1]   .comments-list[_ngcontent-pvc-c1]   li[_ngcontent-pvc-c1]   .success[_ngcontent-pvc-c1]{float:right;color:#333;font-size:13px}.login-footer[_ngcontent-pvc-c1]{text-align:center;font-size:12px;color:#a2a4ab}.login-footer[_ngcontent-pvc-c1]   span[_ngcontent-pvc-c1]{padding-top:10px;padding-bottom:10px}</style><style>.modality-bom[_ngcontent-pvc-c4]{padding:20px 20px 30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:absolute;bottom:0;left:0;background:#fff}.modality-bom[_ngcontent-pvc-c4]   .modality-close[_ngcontent-pvc-c4]{position:absolute;right:13px;top:13px;color:#a5a4ab;width:40px;height:40px}.modality-bom[_ngcontent-pvc-c4]   h4[_ngcontent-pvc-c4]{color:#23262b;font-size:18px;line-height:20px;font-weight:600}.modality-bom[_ngcontent-pvc-c4]   p[_ngcontent-pvc-c4]{color:#666;font-size:13px;line-height:20px}.modality-bom[_ngcontent-pvc-c4]   ul[_ngcontent-pvc-c4]{padding-left:0;max-height:123px;list-style:none;margin-bottom:20px;overflow-y:scroll}.modality-bom[_ngcontent-pvc-c4]   ul[_ngcontent-pvc-c4]   li[_ngcontent-pvc-c4]{font-size:14px;color:#6f6fff;line-height:41px;position:relative;padding-left:16px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.modality-bom[_ngcontent-pvc-c4]   ul[_ngcontent-pvc-c4]   li[_ngcontent-pvc-c4]::before{width:5px;height:5px;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;position:absolute;left:8px;top:18px;background:#6f6fff;color:#6f6fff;content:''}.modality-bom[_ngcontent-pvc-c4]   .up-down-icon[_ngcontent-pvc-c4]{color:#6f6fff;font-size:30px}.modality-bom[_ngcontent-pvc-c4]   .max-h-large[_ngcontent-pvc-c4]{max-height:350px}.modality-bom[_ngcontent-pvc-c4]   .max-h-small[_ngcontent-pvc-c4]{max-height:123px}</style></head>
+
+<body class="">
+
+
+        <div class="bg2" style="    width: 100%;
+    /* height: 400px; */
+    background: #ffffff;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 40px;z-index: 99999999!important;display: none;">
+            <div style="position: relative;">
+                <img class="close"style="width: 17px;height: 17px;position: absolute;
+                right: 10px;top:0px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADhSURBVDhPvZRbDoJADEXZ/zr0y2VoyIggYtwIBr/H3GYGO5fyCJl4khLou1Cm8JmRhMPwkYc9cGxxPJw8pOteQbUdxMT4yJgQ0rbPoF4Hvjo2dlroKpCmeYhhCfjoGD2dvEOudqvuYrSATfvyVONX5qpXVwfLD+i0jzVNsjZcvSyrYPFyr21zU0z2kLu4nJ2I1lndRyYJAXejRXdtYSYE3BUEujX+kzDryG7DR4HPHEnCrGvT1OliW11w94hhJGHWX29yOBhVGZ4mORy0gastwVP1/Vv0+Q9YXGL2PaSx3n8B0bX/peRt+a0AAAAASUVORK5CYII=">
+                <div style="color: #000;font-size: 20px;font-weight: bold;    margin-bottom: 20px;">阅读并同意协议</div>
+                <div class="div12" style="width: 95%;background: #ffffff;height:120px;overflow: scroll;">
+                    <div class="inner inner1">《北莺南筑用户注册协议及信用承诺书》</div>
+                    <div class="inner inner2">《北莺南筑隐私政策》</div>
+                    <div class="inner inner3">《北莺南筑用户服务协议》</div>
+                    <!-- <div class="inner inner4">《你我贷隐私政策》</div> -->
+                </div>
+               <!--  <div style="    display: block;
+    margin: 0 auto;
+    /* width: 30%; */
+    margin-left: 50%;
+    position: relative;
+    left: -10px;margin-top: 15px;">
+                    <img class="img12" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAARCAYAAAAsT9czAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC6SURBVEhLvZPBDYQwDATTMR3wog/eNEABNMCHHnjQAZ/lloQTBAfs5HQjGSkG7xAUHP7ILltXYFn29U+JM908A00DVBXQtqFbyDgCde0zuy40P7i+982jSoUUnfNYB45bjW/mCiXRZWe8SA9ZhZqM72ksEWpnL0c/R2iZuf1nlmHry91kRBOS8xVEGXkKyxGRpIykQqWehkcZkYTn0orIq4ykhBYRUclILLSKiFpGpslLhiE0jJhkZQAbAjal65gmrMIAAAAASUVORK5CYII=" style="    width: 20px;
+    height: 14px;
+    margin: 0 auto;">
+                </div> -->
+                <div style="width: 85%;height:50px;background: #4E4EFF ;text-align: center;
+                line-height: 50px;color: #fff;font-size: 16px;margin:0 auto;margin-top: 20px;border-radius: 50px;
+                --box-shadow: 0 4px 10px 0 rgba(78, 78, 255, 0.5);">
+                    确认，继续申请 
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <div class="bg1" style="width: 100%;height:100%;position: fixed;left:0;top:0;background: rgba(0,0,0,0.35);
+    z-index: 9999999!important;display: none;">
+    </div>
+
+        <div class="div33" style="width:100%;height:100%;background: #fff;position: fixed;
+        left:0;bottom:0;z-index: 9999999999!important;display: none">
+            <div style="height: 40px;text-align: center;
+            line-height: 40px;font-size: 16px;color: #000;font-weight: bold;
+            border-bottom: 1px solid #eee">
+                <span>北莺南筑用户注册协议及信用承诺书</span>
+                <span class="gb1"style="font-weight: normal;float: right;color: #3880ff;position: relative;right: 20px;">
+                    关闭
+                </span>
+            </div>
+            <div style="    padding: 10px;
+    height: calc(100% - 40px);
+    overflow: scroll;" >
+                <div class="innerp" style="font-weight: bold;margin-bottom: 5px">北莺南筑用户注册协议</div>
+                <div class="innerp">《北莺南筑用户注册协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本协议的双方主体为上海北莺南筑网络科技有限公司（以下称“本公司”/“我们”）与本公司运营的“北莺南筑”平台的用户（以下称“您”/“用户”），本协议具有合同效力，请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中点击相应按钮即表示您已仔细阅读并明确同意遵守本协议。如果您不同意本协议的，请勿使用我们提供的所有服务，或您也可以主动选择取消我们为您提供服务。如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。</div>
+                <div class="innerp">关于我们的用户及服务接受条款</div>
+                <div class="innerp">1.1用户需满足的条件。您必须持有中国大陆有效身份证件（不包括香港特区、澳门特区及台湾地区）且为年满18周岁以上的具备完全民事权利能力和民事行为能力的自然人。超过您民事权利能力和民事行为能力范围订立本协议或接受我们各项服务的，我们一经发现，有权立即注销您的账号，并追究您使用我们服务的一切法律责任。</div>
+                <div class="innerp">1.2本公司有权根据相关法律法规或业务运营的需要，对本协议正文及各类具体规则不时进行变更或修改（以下称“修订内容”）。除非另有规定，否则任何修订内容于平台在相关系统板块上发布之时立即生效。若您在修订内容发布后继续使用本公司服务的，即表述您已充分阅读、理解并接受修订内容，也将遵循修订内容使用我们提供的服务，同时对您在本协议修改前通过本公司进行的交易，您同意按照修订内容进行相应的授权和追认。如果您不同意修订内容的，您应当在履行完毕通过本公司与任意主体达成的约定义务的前提下，停止使用本公司提供的所有服务，约定义务包括但不限于已发生的全部借款及服务费（具体根据您与有关主体签订的协议约定内容执行）。</div>
+                <div class="innerp">二、关于我们的服务</div>
+                <div class="innerp">2.1本公司依托互联网向您提供互联网信息服务等服务内容，包括但不限于接受您的借款申请信息并向第三方包括但不限于第三方信息服务方以及金融机构、网络借贷信息中介平台、信托、消费金融公司等资金渠道进行导流推荐，并就前述服务内容提供技术服务支持。服务内容由我们根据实际情况提供并不时更新，我们将定期或不定期根据您的意愿以电子邮件、短信、电话或站内信等方式为您提供服务信息，并向您提供相应服务。本公司对向您提供的服务拥有最终解释权。</div>
+                <div class="innerp">2.2您在使用在北莺南筑平台上由第三方提供的产品或服务时，除应遵守本协议约定外，还应遵守与第三方签订的各项协议。若因您使用本公司或要求本公司提供特定服务时，我们可能会调用第三方系统或者通过第三方支持用户的使用或者访问，使用或者访问的结果由该第三方提供，我们不保证通过第三方系统提供的服务及内容或支持实现的结果的安全性、准确性、有效性及其他不确定的风险，若因此发生的任何争议、纠纷及损失等，均与本公司无关，本公司亦不承担任何责任。</div>
+                <div class="innerp">2.3您使用本公司服务时所需的相关的设备以及网络资源等（如个人电脑及其他与接入互联网或移动网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费）均由您自行负担。</div>
+                <div class="innerp">2.4为了向您提供服务，您授权并同意我们可收集、存储、使用、披露和保护您的个人信息，具体以您向我们确认并授权的《隐私政策及用户信息授权书》约定内容执行。</div>
+                <div class="innerp">2.5 为方便您登陆和使用相关金融产品/服务提供商的服务，您在此授权并委托本公司为提供服务之需，可以将您在北莺南筑平台填写的信息及根据《隐私政策》及《个人信息授权书》所获取的您的相关信息提交给相关金融产品/服务/信息服务提供商，并不可撤销的授权前述机构为您自动生成相关服务账号代码及初始密码（如有），以完成相关金融产品/服务/信息服务提供平台个人账户的注册。在用北莺南筑平台账号登录并使用其他平台提供的产品或服务时，除遵守本协议约定外，还应遵守该等平台服务协议的约定、平台公布的规则以及有关正确使用平台服务的说明和操作指引。北莺南筑平台和其他平台对可能出现的纠纷在法律规定和约定的范围内各自承担责任。 </div>
+                <div class="innerp">三、关于用户的信息与承诺</div>
+                <div class="innerp">3.1您应自行如实向本公司提供您的个人信息并保证信息真实、准确、完整、合法有效。如您提供的信息不合法、不真实、不准确、不详尽，您需承担由此产生的相应责任及后果，我们亦有权终止您成为我们的用户资格。您在接受本公司服务期间，您本人的姓名、身份证号、手机号码、银行账户等信息如发生变更，您应在信息变更后2日内将相关信息提供给北莺南筑平台，若您未及时进行更新而带来的损失均由您自行承担。</div>
+                <div class="innerp">3.2为了更好的为您提供服务，您在此不可撤销的授权并认可本公司收集及存储您的资料及信息，包含但不限于您本人提交的资料、本公司自行收集及本公司通过第三方收集的您的资料及信息。</div>
+                <div class="innerp">3.3您应当妥善保管您本人的账号、密码、绑定的手机号、手机验证码等信息。上述信息是您在本公司的唯一身份识别信息。您应妥善保管并正确使用与账户有关的一切信息，若非因本公司过错产生的您的信息泄露、账户被盗等，您应及时联系我们，以尽量减少您的损失，因前述行为导致您的任何损失均由您本人承担。</div>
+                <div class="innerp">3.4您在接受本公司服务过程中应当诚实、守信地履行义务，否则，您可能承担相应的不利后果。您不得对本公司的系统和程序采取反向工程手段进行破解，不得对上述系统和程序进行复制、修改、编译、整合或篡改，不得修改或增减本公司系统的任何功能。</div>
+                <div class="innerp">3.5本公司有义务根据行政、司法机关的要求向该等机关提供您的资料及信息。</div>
+                <div class="innerp">四、 关于使用准则</div>
+                <div class="innerp">4.1您在使用本公司服务过程中，必须遵循国家的相关法律法规，不通过平台发布、复制、上传、散播、分发、存储、创建或以其它方式公开含有以下内容的信息：</div>
+                <div class="innerp">（1）反对宪法所确定的基本原则的； </div>
+                <div class="innerp">（2）危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；</div>
+                <div class="innerp">（3）损害国家荣誉和利益的； </div>
+                <div class="innerp">（4）煽动民族仇恨、民族歧视，破坏民族团结的； </div>
+                <div class="innerp">（5）破坏国家宗教政策，宣扬邪教和封建迷信的；</div>
+                <div class="innerp">（6）散布谣言，扰乱社会秩序，破坏社会稳定的；</div>
+                <div class="innerp">（7）散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的、欺诈性的或以其它令人反感的讯息、数据、信息、文本、音乐、声音、照片、图形、代码或其它材料； </div>
+                <div class="innerp">（8）侮辱或者诽谤他人，侵害他人合法权益的； </div>
+                <div class="innerp">（9）其他违反宪法和法律、行政法规或规章制度的； </div>
+                <div class="innerp">（10）可能侵犯他人的专利、商标、商业秘密、版权或其它知识产权或专有权利的内容；</div>
+                <div class="innerp">（11）假冒任何人或实体或以其它方式歪曲您与任何人或实体之关联性的内容；</div>
+                <div class="innerp">（12）未经请求而擅自提供的促销信息、政治活动、广告或意见征集； </div>
+                <div class="innerp">（13）任何第三方的私人信息，包括但不限于地址、电话号码、电子邮件地址、身份证号以及信用卡卡号；</div>
+                <div class="innerp">（14）病毒、不可靠数据或其它有害的、破坏性的或危害性的文件；</div>
+                <div class="innerp">（15）与内容所在的互动区域的话题不相关的内容； </div>
+                <div class="innerp">（16）依我们的自行判断，足以令人反感的内容，或者限制或妨碍他人使用或享受互动区域或平台的内容，或者可能使我们或我们关联方或其他用户遭致任何类型损害或责任的内容； </div>
+                <div class="innerp">（17）包含法律或行政法规禁止内容的其他内容。</div>
+                <div class="innerp">4.2用户不得利用本公司的服务从事下列危害互联网信息网络安全的活动：
+（1）未经允许，进入互联网信息网络或者使用互联网信息网络资源；
+（2）未经允许，对互联网信息网络功能进行删除、修改或者增加；
+（3）未经允许，对进入互联网信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加；
+（4）故意制作、传播计算机或手机病毒等破坏性程序；
+（5）其他危害互联网信息网络安全的行为。</div>
+                <div class="innerp">4.3我们保留在任何时候为任何理由而不经通知地过滤、移除、筛查或编辑本网站上发布或存储的任何内容的权利，您须自行负责备份和替换在本公司发布或存储的任何内容，成本和费用自理。</div>
+                <div class="innerp">4.4如我们发现您为在校学生或您提供的信息存在虚假或欺诈，我们有权在任何时候且无需通知您的情况下取消您的借款申请，并中止或终止您的用户资格，由此导致的一切后果和责任由您自行承担。您须对自己在使用本公司服务过程中的行为承担法律责任。若您为限制行为能力或无行为能力者，则您的法定监护人应承担相应的法律责任。</div>
+                <div class="innerp">4.5如您的操作影响系统总体稳定性或完整性，我们将暂停或终止您的操作，直到相关问题得到解决。</div>
+                <div class="innerp">五、关于免责条款</div>
+                <div class="innerp">5.1北莺南筑是一个开放平台，您将文章或照片等个人资料上传到互联网上，有可能会被其他组织或个人复制、转载、擅改或做其它非法用途，您必须充分意识此类风险的存在。作为网络服务的提供者，我们对您在任何论坛、个人主页或其它互动区域提供的任何陈述、声明或内容均不承担责任。您明确同意使用我们服务所存在的风险或产生的一切后果将完全由您自身承担，我们对上述风险或后果不承担任何责任。
+</div>
+                <div class="innerp">5.2您违反本协议、违反道德或法律的，侵犯他人权利（包括但不限于知识产权）的，我们不承担任何责任。同时，我们对任何第三方通过北莺南筑平台发送服务或包含在服务中的任何内容不承担责任。</div>
+                <div class="innerp">5.3对您、其他用户或任何第三方发布、存储或上传的任何内容或由该等内容导致的任何损失或损害，我们不承担责任。</div>
+                <div class="innerp">5.4对任何第三方通过本公司可能对您造成的任何错误、中伤、诽谤、诬蔑、不作为、谬误、淫秽、色情或亵渎，我们不承担责任。</div>
+                <div class="innerp">5.5对黑客行为、计算机或手机病毒、或因您保管疏忽致使帐号、密码被他人非法使用、盗用、篡改的或丢失，或由于与本公司链接的其它网站所造成您个人资料的泄露，或您因其他非我们的原因造成的损失，我们不承担责任。如您发现任何非法使用用户帐号或安全漏洞的情况，请立即与我们联系。</div>
+                <div class="innerp">5.6因任何非北莺南筑平台方原因造成的网络服务中断或其他缺陷，及其他我们不能预见、不能避免、不能克服的客观情况，我们不承担任何责任。</div>
+                <div class="innerp">5.7我们不保证服务一定能满足您的要求，不保证服务不会中断，也不保证服务的及时性、安全性、准确性。</div>
+                <div class="innerp">5.8任何情况下，因使用北莺南筑平台而引起或与使用北莺南筑平台有关的而产生的由我们负担的责任总额，无论是基于合同、保证、侵权、产品责任、严格责任或其它理论，均不得超过您因访问或使用北莺南筑平台而向我们支付的任何服务费用。</div>
+                <div class="innerp">5.9北莺南筑平台提供免费的借款搜索和推荐服务，借款过程中遇到的任何预先收费均为诈骗行为，请保持警惕避免损失。
+六、关于知识产权及其它权利</div>
+                <div class="innerp">6.1北莺南筑平台在其网站、链接、APP等中使用的商标或标记均为我们或其他特别注明的权利人所有。北莺南筑平台在我们网站、APP等中包含、展示的任何文字、图像、软件及其他资料均归本公司及其他特别注明的权利人所有，仅供您根据本协议个人使用，本公司及相应权利人并未通过本协议授予您对上述信息和内容的任何权利。未经本公司及相应权利人书面同意，您不得以任何形式向任何第三方公开发表、传输、复制或以其他方式使用本公司提供的全部或部分信息，不得更改、虚化或删除署名、商标、版权标识和/或其他权利声明。所有这些资料或资料的任何部分仅可作为个人或非商业用途而保存在某台计算机或其他电子设备内，否则，我们及/或权利人将追究您的法律责任。
+</div>
+                <div class="innerp">6.2对您在北莺南筑平台发布或以其它方式传播的内容，您作如下声明和保证：
+（1）对于该等内容，您具有所有权或使用权；
+（2）该等内容是合法的、真实的、准确的、非误导性的；
+（3）使用和发布此等内容或以其它方式传播此等内容不违反本协议，也不侵犯任何人或实体的任何权利或造成对任何人或实体的伤害。
+</div>
+                <div class="innerp">6.3您在本公司发布或传播的自有内容或具有使用权的内容，您特此同意如下：
+（1）授予我们使用、复制、修改、改编、翻译、传播、发表此等内容，从此等内容创建派生作品，以及在全世界范围内通过任何媒介（现在已知的或今后发明的）公开展示和表演此等内容的权利；
+（2）授予我们及其关联方和再许可人一项权利，可依他们的选择而使用用户有关此等内容而提交的名称；
+（3）授予我们在第三方侵犯您在北莺南筑平台的权益、或您发布在北莺南筑平台的内容情况下，依法追究其责任的权利（但这并非我们的义务）。</div>
+                <div class="innerp">6.4您在北莺南筑平台公开发布或传播的内容、图片等为非保密信息，我们没有义务将此等信息作为您的保密信息对待。在不限制前述规定的前提下，我们保留以适当的方式使用内容的权利，包括但不限于删除、编辑、更改、不予采纳或拒绝发布。我们无义务就您提交的内容而向您付款。一旦内容已在北莺南筑平台发布，我们也不保证向您提供对已发布内容进行编辑、删除或作其它修改的机会。
+</div>
+                <div class="innerp">6.5如有权利人发现您在北莺南筑平台发表的内容侵犯其权利，并依相关法律、行政法规的规定向我们发出书面通知的，我们有权在不事先通知您的情况下自行移除相关内容，并依法保留相关数据。您同意不因该种移除行为向我们主张任何赔偿，如我们因此遭受任何损失，您应赔偿我们的损失（包括但不限于赔偿各种费用及律师费）。
+</div>
+                <div class="innerp">6.6若您认为您发布指向内容并未侵犯其他方的权利，您可以向我们以书面方式说明被移除内容不侵犯其他方权利的书面通知，该书面通知应包含如下内容：您详细的身份证明、住址、联系方式、您认为被移除内容不侵犯其他方权利的证明、被移除内容在北莺南筑平台上的位置以及书面通知内容的真实性声明。我们收到该书面通知后，有权决定是否恢复被移除内容。
+</div>
+                <div class="innerp">6.7您特此同意，如果您想我们提供的用于说明被移除内容不侵犯其他方权利的书面通知的陈述失实，您将承担由此造成的全部法律责任，如我们因此遭受任何损失，您应赔偿我们的损失（包括但不限于赔偿各种费用及律师费）。</div>
+                <div class="innerp">七、关于服务变更、中断或终止</div>
+                <div class="innerp">7.1 如因升级的需要而需暂停网络服务、或调整服务内容，我们将尽可能在网站/APP上进行通告。由于您未能及时浏览通告而造成的损失，我们不承担任何责任。</div>
+                <div class="innerp">7.2 您明确同意，我们保留根据实际情况随时调整我们提供的服务内容、种类和形式，或自行决定授权第三方向您提供原本我们提供的服务。因业务调整给您或其他用户造成的损失，我们不承担任何责任。同时，我们保留随时变更、中断或终止为您提供全部或部分服务的权利。
+</div>
+                <div class="innerp">7.3 发生下列任何一种情形，我们有权单方面中断或终止向您提供服务而无需通知您，且无需对您或第三方承担任何责任：
+（1）您提供的个人资料不真实；
+（2）您违反本协议条款；
+（3）未经我们书面同意，将北莺南筑平台用于商业目的。
+</div>
+                <div class="innerp">7.4 您可随时通知我们终止向您提供服务或直接取消北莺南筑平台的服务。自您终止或取消服务之日起，我们不再向您承担任何形式的责任。</div>
+                <div class="innerp">特别约定</div>
+                <div class="innerp">8.1您使用本公司服务的行为若有任何违反国家法律法规或侵犯任何第三方的合法权益的情形时，我们有权直接删除该等违反规定之信息，并可以暂停或终止向您提供服务。</div>
+                <div class="innerp">8.2若您利用本公司服务从事任何违法或侵权行为，由您自行承担全部责任，因此给我们或任何第三方造成任何损失，您应负责全额赔偿，并使我们免受由此产生的任何损害。</div>
+                <div class="innerp">8.3您同意我们通过重要页面的公告、通告、电子邮件以及常规信件的形式向您传送与北莺南筑服务有关的任何通知和通告。</div>
+                <div class="innerp">8.4如您有任何有关与本公司服务的个人信息保护相关投诉，请您与我们联系，我们将在接到投诉之日起15日内进行答复。</div>
+                <div class="innerp">8.5本注册协议中的标题仅为方便而设，不影响对于条款本身的解释。本注册协议最终解释权归北莺南筑所有。
+关于法律适用及争议解决</div>
+                <div class="innerp">9.1本协议之效力、解释、执行均适用中华人民共和国法律。</div>
+                <div class="innerp">9.2如就本协议内容或其执行发生任何争议，应尽量友好协商解决；协商不成时，任何一方均可向上海市浦东新区人民法院提起诉讼。
+其他</div>
+                <div class="innerp">10.1本协议未尽事宜按照本公司现有及不时发布的各项规则执行。</div>
+                <div class="innerp">10.2本协议中的标题仅为方便而设，不影响对于条款本身的解释。本协议最终解释权归本公司所有。</div>
+                <div class="innerp">10.3本协议采用电子合同方式。您在北莺南筑平台或北莺南筑合作平台注册页面或其他相关页面通过点击确认、勾选、电子签章或其他类似任一方式签署的电子合同即视为您本人真实意愿并系为以您本人名义签署的协议，具有法律效力。您应妥善保管自己的密码等用户信息，您通过前述方式订立的电子合同对合同各方具有法律约束力，您不得以用户信息及登陆密码等被盗用或任何其他理由否认已订立的协议的效力或不按照该等协议履行相关义务。为免疑义，如您在北莺南筑平台签署的相关协议或授权书需要使用北莺南筑或北莺南筑子公司合作的第三方电子签章认证服务商提供的电子签章服务的，则您不可撤销地授权我们为您向合作的电子签章认证服务机构为您申请电子签章及数字证书，您点击确认相关协议或授权的行为即视为您已同意授权我们和我们指定的电子签章认证服务商在相应的协议、授权上加盖您的电子签章。 </div>
+                <div class="innerp">附件：信用承诺书</div>
+                <div class="innerp">信用承诺书</div>
+                <div class="innerp">本人承诺并保证：</div>
+                <div class="innerp">1、本人在北莺南筑平台的借款用于真实且合法的融资项目，且本人在签署本承诺书之前及之后向出借人及北莺南筑平台提交的一切文本、图文、个人信息、融资信息（包括但不限于信用信息、资金用途、还款来源）等资料或信息均为真实、准确、合法、有效的，不存在任何虚假信息、遗漏或隐瞒。如提供资料存在虚假不实的，本人将承担相应的法律责任。</div>
+                <div class="innerp">2、不以任何理由和任何形式将获得的借款资金用于任何违法违规活动（包括但不限于赌博、吸毒、贩毒、卖淫嫖娼等），亦不将借款资金用作申请时借款用途之外的其他任何用途（包括但不限于用于出借、支付购房首付款、赎楼、房地产场外配资等购房融资、房地产开发、进行证券投资或权益投资、场外配资、期货合约、结构化产品及其他衍生品等高风险的投资或从事其他违法、违规交易等）。</div>
+                <div class="innerp">
+3、借款全部清偿之前，如发生影响或可能影响出借人权益的重大情形（具体见借款合同的约定）或个人信息变更，本人承诺将在在重大情形发生或信息变更后三日内告知北莺南筑平台及贷款人/出借人。
+本承诺书自本人采用数据电文形式签署，自本人在北莺南筑平台或北莺南筑合作平台注册页面或其他相关页面通过点击确认、勾选、电子签章或其他类似任一方式签署即视为本人的真实意愿，对本人具有法律效力。</div>
+                <div class="innerp">承诺人：</div>
+                <div class="innerp">
+年 月 日</div>
+            </div>
+        </div>
+
+
+        <div class="div44" style="width:100%;height:100%;background: #fff;position: fixed;
+        left:0;bottom:0;z-index: 99999;display: none">
+            <div style="height: 40px;text-align: center;
+            line-height: 40px;font-size: 16px;color: #000;font-weight: bold;
+            border-bottom: 1px solid #eee">
+                <span>北莺南筑隐私政策</span>
+                <span class="gb2" style="font-weight: normal;float: right;color: #3880ff;position: relative;right: 20px;">
+                    关闭
+                </span>
+            </div>
+            <div style="    padding: 10px;
+    height: calc(100% - 40px);
+    overflow: scroll;" >
+                <div class="innerp" style="font-weight: bold;margin-bottom: 5px">北莺南筑隐私政策</div>
+<pre>
+更新时间： 2020年3月27日
+  北莺南筑（在本隐私政策中，指上海北莺南筑网络科技有限公司，注册地址：上海市宝山区锦乐路947号1幢1层，以下简称“我们”或“北莺南筑”，）非常重视用户的隐私和个人信息保护。
+  您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过《北莺南筑隐私政策》（“本隐私政策”）向您说明您在使用我们的服务时，我们会收集您的哪些信息、为什么收集这些信息，将利用这些信息做什么以及如何保护这些信息。请您务必仔细阅读本隐私政策，在确认充分了解并同意后使用北莺南筑的服务。如您有任何疑问，可联系我们的信息安全负责人及客服进行咨询，如您不同意本隐私政策中的任何条款，请您立即停止使用我们的服务。
+  本隐私政策的适用范围：
+  北莺南筑平台所有服务【包括上海北莺南筑网络科技有限公司及其子公司的所有服务，以及未独立设立隐私政策的北莺南筑其他关联公司的服务】均适用本隐私政策。需要特别说明的是，本政策不适用于其他第三方向您提供服务的情形。
+  本隐私政策将帮您了解以下内容：
+  一. 我们如何收集和使用您的个人信息
+  二. 我们如何共享、转让、公开披露您的个人信息
+  三. 我们如何保护和存储您的个人信息
+  四. 您管理个人信息的权利
+  五. 未成年人个人信息的处理和保护
+  六. 通知和修订
+  七. 联系我们
+一、我们如何收集和使用您的个人信息
+  为向您提供更完善的服务，当您使用我们的产品、服务、功能或设置时，我们将以下列方式收集您的以下个人信息，若您不同意提供下列信息，我们可能无法向您提供我们的产品或服务：
+（一）您直接提供和我们可能采集的信息
+    A 向您提供北莺南筑服务的核心业务功能
+  1. 在您希望使用我们的服务并进入北莺南筑的APP及H5页面时，我们将会收集您的个人常用设备信息（包括设备名称、设备型号、设备识别码、操作系统和应用程序版本等）、日志信息（如访问内容、IP地址、访问日期和时间及访问记录等）和网络身份标识信息，收集这些信息是为了保障您的账户安全，同时向您提供更好的产品和/或服务并改善用户体验。
+  2. 当您希望使用我们的服务并进入北莺南筑的APP及H5页面时，我们将会收集和处理有关您实际所在位置的信息，以便我们确认您所在的地区是否能够正常使用或申请我们的服务，也方便我们更好地为您提供服务。您可以通过关闭定位功能，停止对您地理位置信息的收集，但您可能因此无法获得相关产品及/或服务。
+  3. 您在注册北莺南筑账号时需至少向我们提供您的手机号，并创建密码，以注册成为我们的用户，便于您进一步浏览及体验我们的服务，也方便我们更好地管理您的账号安全。
+  4. 您在使用我们的服务前，我们会对您进行身份认证（实名认证），需要您提供您的姓名、身份证号、身份证照片。我们通过合法持有您身份信息的第三方机构对您所提供的信息进行核对。如果您拒绝提供上述身份信息，则您无法使用根据中国相关法律法规必须进行身份认证（实名认证）的信息服务。
+  5. 如您作为借款人申请使用我们的服务时，您需要向我们提供如下个人信息，我们会使用您的该等个人信息进行风险管理及控制，监测、预防及/或修复欺诈或其他潜在的非法活动，以及进行必要的资信评估、信用初审以及其他您希望使用的业务功能。如您不提供上述信息，我们则无法在您使用北莺南筑服务过程中对您的身份、信用及偿付能力进行初步评估并决定是否向您提供相应服务，您可能无法正常或完整地使用我们的服务，个人信息包括：
+  （1）个人基本信息，包括姓名、出生年月、性别、民族、住址、电话号码、婚姻状况、电子邮箱（若有）等。
+  （2）个人身份信息，包括身份证号码、公积金账户等。
+  （3）个人生物识别信息，包括面部照片、视频、指纹等。
+  （4）个人教育工作信息，包括工作性质、所属行业、工作单位、学历等。
+  （5）联系人信息，包括联系人信息及与您的关系等。
+  （6）个人财产信息，包括银行账号、信用卡信息、收入说明、负债情况等。
+  6. 如您作为借款人申请使用我们的服务时，我们还将会收集您的通讯录信息（包括通讯录中已存储的姓名以及电话号码），以便我们通过您的通讯录信息对您的资信进行初步评估、完成借款信用初步审核以及完善我们的服务。
+  7. 为保障服务安全，提高我们服务的安全性，更准确地预防钓鱼网站欺诈和保护您账户的安全，我们可能会通过收集您的设备信息、浏览信息、服务信息、应用软件信息等手段来判断您的账号风险，并可能会记录一些我们认为有风险的链接（URL）；我们也会收集您的设备信息对北莺南筑系统问题进行分析、统计流量并排查可能存在的风险、在您选择向我们发送异常信息时予以排查。如果您不提供上述信息，我们则无法在您使用北莺南筑服务过程中对您的服务及账号安全进行保护。
+    B 向您提供北莺南筑服务的扩展业务功能
+  1. 定向推送服务
+  我们可能会使用已收集到的您的个人信息进行数据分析以形成用户画像，用来将您感兴趣的产品或服务信息展示给您。对于从您的各种设备上收集到的信息，我们可能会将它们进行关联，以便我们能在这些设备上为您提供一致的服务。
+  2.【第三方产品及/或服务】
+  当您希望通过北莺南筑使用北莺南筑关联公司或北莺南筑合作机构提供的服务时，基于北莺南筑和北莺南筑关联公司及合作机构联合向您提供服务、开展信息核验、提高服务质量并完善用户体验的需求，您同意并授权我们收集您在使用北莺南筑关联公司或合作机构提供的产品及/或服务的过程中，在该等关联公司或合作机构留存及形成的相关个人信息。除法律法规另有规定外，北莺南筑关联公司及合作机构会在征得您同意、授权的前提下，向我们提供由关联公司或合作机构收集或者储存的您的信息。
+  3.其他服务
+  当您使用我们的服务的一些其他额外功能时，我们会在获得您的同意后收集您的一些与服务相关的信息。例如，我们向您提供提醒功能时，会收集您的日历信息；当您使用设置头像功能时，我们会收集您的相册照片信息；在您进行人脸识别时，我们会在获得您的同意后开通您的相机功能；当您希望使用Touch ID/Face ID功能进行登录时，我们将会收集您的指纹验证结果及面部特征信息等。
+  4.营销/贷后服务
+  为了让您更好地了解和使用我们的服务，我们可能会使用您的通讯信息，向您进行电话营销、发送商业性电子信息以及提供还款/逾期账务提醒等，如您不提供以上信息，您可能无法正常地了解和使用我们的服务。
+（二）我们从其他来源收集的信息
+  1. 当您申请使用我们的服务时，我们可能会从关联公司、合作伙伴、信用机构及依法成立并合法留存您个人信息的第三方机构获取您的个人信息（包括您的个人基本信息、身份信息、生物识别信息、联系人信息、财产信息及其他我们为您提供服务所必需的信息）用于风险审核及控制等需要，并依照本隐私政策使用您的个人信息。
+  2. 当您申请使用我们的服务时，我们可能从第三方获得您授权共享的账户信息（包括您的手机号、地理位置、身份信息及其他必要信息），在您同意本隐私政策后，我们将利用上述信息在北莺南筑的注册，以达到您通过第三方账户直接登录并使用我们的服务的目的。在符合相关法律法规规定的前提下，使用您的这些个人信息。
+  3. 当您作为借款人申请使用我们的服务时，我们可能从北莺南筑关联公司、合作伙伴、信用征信机构、大数据公司及依法并合法留存您通话详单的第三方机构获取您的近期通话详单（近三个月至半年），以便我们在无法联系到您时通过上述通话详单中的电话号码与您及时取得联系或获知您新的联系方式，继续为您提供我们的服务。
+  您理解，为了我们更好地为您提供服务，也为了我们自身的风险防控，以及保护各方的合法权益，您同意并授权我们从其他来源取得您的个人信息和资料。以便我们在您使用我们的服务时对您的信用情况、履约能力等进行评估与审核，同时在后期为您提供必要的客户质量评估及营销等各项服务。
+（三）您充分知晓以下信息无需获得您的同意：
+  1. 与国家安全、国防安全有关的；
+  2. 与公共安全、公共卫生、重大公共利益有关的；
+  3. 与犯罪侦查 、起诉、审判和判决执行等与有关的；
+  4. 出于维护个人信息主体或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；
+  5. 所收集的个人信息是个人信息主体自行向社会公众公开的；
+  6. 从合法公开披露的信息中收集的您的个人信息的，如合法的新闻报道、政府信息公开等渠道；
+  7. 根据您的需求签订合同所必需的；
+  8. 用于维护所提供的服务承担的安全稳定运行所必需的，例如发现、处置服务的故障；
+  9. 为合法的新闻报道所必需的；
+  10. 学术研究机构基于公共利益开展统计或学术研究所必需的，且对外提供学术研究或描述的结果时，对结果中所包含的个人信息进行去标识化处理的；
+  11. 法律法规规定的其他情形。
+（四）Cookie和同类技术
+  1. 为了了解您的偏好、进行咨询或数据分析、改善产品服务及用户体验、及时发现并防范安全风险、帮助网站统计独立访客数量等，您同意我们有权使用诸如“了解您的偏好等同类技术以搜集、追索相关信息和资料并提供只有通过“同类技术以搜集等装置才可得到的功能。
+  2. 我们一般不会使用Cookie技术收集您的个人信息，若我们实际收集了，我们保证不会将“Cookie“到的您的个人信息用于本隐私政策所述之外的用途，您可以选择通过修改浏览器设置的方式拒绝Cookie，但您可能无法登陆或使用依赖于Cookie的北莺南筑提供的服务或功能。
+二、我们如何共享、转让、公开披露您的个人信息
+（一）共享您的个人信息
+  我们承诺会根据相关法律法规及监管规定对您的个人信息（包括您主动提供和我们收集、保存、记录的您的相关信息）承担保密责任，我们仅会在以下情况共享您的个人信息：
+  1. 获得您明确同意或授权的情况下；
+  2. 根据法律法规、法律程序的要求、或强制性的政府要求或司法裁定，对外共享您的个人信息，以便有关单位和个人依法查询和使用，以及，如您被他人投诉或投诉他人，我们会将您的姓名及身份信息、投诉内容等共享给消费者权益保护部门及监管机关，以便及时解决投诉纠纷，但法律法规明确禁止提供的除外。
+  3. 符合我们、我们的关联方、合作方与您签署的相关协议或其他法律法规约定所共享；
+  4. 在法律法规允许的范围内，为维护我们、我们的关联方或合作方、您或其他用户的财产或安全，以及社会公共利益免遭损害而有必要提供；
+  5. 因某些服务将由我们的关联方及合作机构提供，为了向您提供完善、更好的服务，我们可能会将您的个人信息及您使用北莺南筑服务所产生的信息与我们的关联方及合作机构共享。但我们只会共享为向您提供服务所必需的个人信息，且受本隐私政策中所声明目的的约束。我们的关联方及合作机构如要改变个人信息的使用目的，将再次征求您的授权同意；
+  6. 为实现向您提供我们及北莺南筑关联公司或合作机构的服务所必需而共享给我们的合作方，我们的合作方包括以下类型；
+  （1）导流、广告的授权合作方。
+        在您希望通过北莺南筑触发、申请、使用北莺南筑关联公司或合作机构提供的服务时，为了帮助您与北莺南筑关联公司或合作机构建立服务关系、完成交易流程、实现服务目的，我们需要向北莺南筑关联公司或合作机构提供您的个人信息包括（您的个人基本信息、身份信息、生物识别信息、联系人信息、财产信息）及其他为达到本条规定之目的所必需的个人信息，法律法规和监管要求禁止提供的个人信息除外。
+  （2）供应商、服务提供商和其他合作方。
+        该等合作方包括您拟申请借款的资金方（包括但不限于金融机构、互联网小额贷款公司、网络借贷信息中介平台、信托公司、消费金融公司等资金渠道）、融资性担保公司、保险公司、其他信息服务平台、第三方支付机构、征信机构或数据服务机构、电子签章服务机构、电子合同与交易存证机构、身份认证机构、短信服务机构、贷后管理（催收）机构等。如将您的姓名和身份信息提供给依法设立的征信机构和个人信用评级机构，以便我们了解您的信用情况，进而决定是否向您提供服务等。
+（二）转让您的个人信息
+  我们不会将您的个人信息转让给除北莺南筑及其关联公司以外的其他公司、组织或个人，但以下情况除外：
+  1. 已获得您的明确同意和授权；
+  2. 根据可适用的法律法规、法律程序的要求、强制性的行政或司法要求所必须的情况进行转让；
+  3. 如我们或我们的关联方涉及合并、分立、收购、资产或业务转让或类似的交易，您的个人信息可能作为此类交易的一部分而被转让，我们将向您告知个人信息转让的情况，并通过协议的方式要求受让方继续履行本隐私政策中我们所承担的责任和义务，同时，我们将确保该等信息在转移时的机密性，您同意对此予以认可和理解。
+（三）公开披露您的个人信息
+  我们将会在以下情况下公开披露您的个人信息：
+  1. 根据您的需求，在您明确同意的披露方式下披露您所指定的个人信息；
+  2. 根据法律、法规的要求、强制性的行政执法、司法或行业协会要求所必须提供您个人信息的情况下，我们可能会依据所要求的个人信息类型和披露方式公开披露您的个人信息。在符合法律法规的前提下，当我们收到上述披露信息的请求时，我们会要求必须出具与之相应的法律文件，如传票或调查函。我们坚信，对于要求我们提供的信息，应该在法律允许的范围内尽可能保持透明。我们对所有的请求都进行了慎重的审查，以确保其具备合法依据，且仅限于执法部门因特定调查目的且有合法权利获取的数据。
+（四）共享、转让、公开披露个人信息授权同意的例外
+  根据相关法律法规的规定，在以下情形中，我们可以在不征得您的授权同意的情况下共享、转让、公开披露您的个人信息：
+  1.与我们履行法律法规规定的义务相关的；
+  2. 与国家安全、国防安全有关的；
+  3. 与公共安全、公共卫生、重大公共利益有关的；
+  4. 与犯罪侦查、起诉、审判和判决执行等有关的；
+  5. 出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人同意的；
+  6. 您自行向社会公众公开的个人信息；
+  7. 从合法公开披露的信息中收集到的个人信息的，如合法的新闻报道、政府信息公开等渠道。
+  8. 根据法律法规的规定、有权机关要求及其他合法合规情形。
+  根据法律规定，共享、转让经去标识化处理的个人信息，且确保数据接收方无法复原并重新识别个人信息主体的，不属于个人信息的对外共享、转让及公开披露行为，对此类数据的保存及处理将无需另行向您通知并征得您的同意。
+三、我们如何保护和保存您的个人信息
+（一）我们如何保护您的个人信息
+  1. 保护措施
+  （1）我们非常重视个人信息安全，我们决不会将您的信息恶意出售或非法共享给任何第三方且会采取一切符合行业标准和惯例等一切合理可行的措施保护您的个人信息。
+  （2）我们成立了专业团队负责研发和应用多种安全技术和程序等，建立了完善的信息安全管理制度。我们会对信息安全管理负责人和关键安全岗位的人员进行背景调查，并要求所有接触个人信息的员工签订严格的保密协议以保证您的信息不会泄露。
+  （3）我们会对员工进行数据安全意识的培养和安全能力的培训，以便员工深刻认识到保护个人的重要性。我们会安排专门的负责人管理信息权限，仅为确有必要的岗位开通信息调取的权限。
+  （4）我们提醒您注意，互联网并非绝对安全的环境，在您使用我们及北莺南筑关联公司或北莺南筑合作方的服务时，我们强烈建议您不要使用非北莺南筑推荐的通信方式发送您的信息。
+  （5）我们也请您理解，在互联网行业由于技术的限制和飞速发展以及可能存在的各种恶意攻击手段，即使我们竭尽所能加强安全措施，也无法始终保证信息的百分之百的安全。请你了解，您使用我们的服务时所用的系统和通讯网络，有可能在我们控制之外的其他环节而出现安全问题。
+  2. 安全事件处置
+  （1）如发生个人信息安全事件，我们将按照法律法规的要求，及时向您告知安全事件的基本情况和可能的影响、我们已采取或将要采取的处理措施、您可自主防范和降低的风险的建议、对您的补救措施等。我们会及时将事件相关情况以站内通知、短信通知、电话、邮件等您预留的联系方式告知您，难以逐一告知时我们会采取合理、有效的方式发布公告。
+  （2）我们会及时处置系统漏洞、网络攻击、病毒侵袭及网络侵入等安全风险。在发生危害网络安全的事件时，我们会按照网络安全事件应急预案，及时采取相应的补救措施，并按照规定向有关主管部门报告。
+  （3）如果您对我们的个人信息保护有任何疑问，可通过本政策最下方约定的联系方式联系我们。如您发现自己的个人信息泄密，尤其是您的账户及密码发生泄露，请您立即通过本政策展示的联系方式联络我们，以便我们采取相应措施。
+（二）我们如何存储您的个人信息
+  1. 我们将在中华人民共和国境内收集的个人信息存储在中华人民共和国境内。如为处理跨境业务，且需要向境外传输您的个人信息完成交易的，我们会按照法律法规和相关监管部门的规定执行，并要求接收方按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理这些个人信息。
+  2. 除法律法规另有规定外，在您未删除、未注销账号前，我们会保留您的相关个人信息，超出必要期限后，我们将对您的个人信息进行删除或匿名化处理。
+  3. 您的个人信息经匿名化处理后将形成可以使用及流通的数据，我们对此类数据的保存及处理无需另行通知并征得您的同意。
+四、您管理个人信息的权利
+  我们非常重视并保护您关于管理个人信息的权利，并为您提供了管理个人信息的方法。您有权利访问、更正、撤销自己的信息并保护自己的隐私和安全。您的权利包括：
+  1.访问权。除法律法规规定的例外情况，无论您何时使用我们的服务，我们都会力求让您顺利访问自己的个人信息。如果您希望访问或编辑您账户中的个人资料信息（包括但不限于手机号码、电子邮箱、登录密码、手势密码、银行账户信息等），您可以在网页端或APP端中执行此类操作。
+  2.更正权。当您需要更新您的个人信息，或发现我们处理您的个人信息有错误时，您有权做出更正或更新。您可以自行在相关网页端或APP端进行更正，或通过反馈与报错等将您的更正申请提交给我们。在您进行更新或更正前，我们可能会现要求您验证自己的身份，然后再处理您的请求。
+  3.撤销权。您可以通过联系北莺南筑客服申请改变您授权同意的范围或撤回您的授权，但您撤回同意或授权后，我们可能将无法继续为您提供撤回同意或授权所对应的服务。同时，您知悉并理解，在您撤回同意或授权前提供的个人信息，我们将继续依照可适用的法律法规规定及本隐私权政策进行保存或披露。
+  4.删除权。在以下情形中，您可以向我们提出删除个人信息的请求：我们终止您北莺南筑的运营及服务；您注销了北莺南筑账户；我们处理个人信息的行为违反法律法规。
+  但是请您理解，您提出删除个人信息的请求后，我们仍旧要遵守个人信息保存时间的规定，超出必要期限后，才会将您的个人信息进行删除或匿名化处理。
+  5.注销权。您可以随时联系北莺南筑客服申请注销您的账户，一旦您注销账户，我们将停止为您提供服务，因此请您谨慎操作。但您知悉并理解，在您注销账户前提供的个人信息，我们将继续依照可适用的法律法规规定及本隐私权政策进行保存或披露。
+  6.其他问题。如果您无法通过上述方式访问、更正或撤销您的个人信息，或者您无法完成账户注销，或者您就我们收集、使用您信息存在任何疑问，您都可以通过本隐私政策展示的联系方式与我们联系。为保障安全，我们可能需要您提供书面请求，或以其他方式证明您的身份。我们将在收到您的反馈并验证您身份后尽快答复您的相关请求。我们将尽合理商业努力，满足您对于个人信息的访问、更正、撤销及账户注销的要求。但对于无端重复、需要过多技术手段、给他人合法权益带来风险或者非常不切实际的请求，我们可能会予以拒绝。对于您合理的请求，我们原则上不收取费用，但对多次重复、超出合理限度的请求，我们将视情况收取一定成本费用。
+  7.例外。按照法律法规要求，以下情况中，我们将无法满足您关于管理个人信息的请求：
+  （1）与国家安全、国防安全有关的；
+  （2）与公共安全、公共卫生、重大公共利益有关的；
+  （3）与犯罪侦查、起诉、审判和执行等有关的；
+  （4）有充分证据表明您存在主观恶意或滥用权利的；
+  （5）响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的；
+  （6）涉及商业秘密的。
+五、未成年人的个人信息保护
+  1. 北莺南筑非常重视对未成年人个人信息的保护，原则上我们的网站和服务仅向成年人提供。若您是十八周岁以下的未成年人，在使用我们的服务前，应事先取得您家长或法定监护人的同意。北莺南筑根据国家相关法律法规的规定保护未成年人的个人信息。
+  2. 如果您未能取得您监护人的同意或您未同意您的被监护人使用我们的服务并向我们提供信息，请您或被监护人立即停止使用我们的服务并及时与我们取得联系。在收到您的书面通知而知晓或我们自行知晓，我们在未事先获得监护人同意的情况下收集了未成年人的个人信息时，我们会立即停止相关信息收集及使用。
+六、通知和修订
+  本隐私权政策将会随着我们的业务的发展进行更新，以便为您提供更好的服务。我们会通过在网站、APP或其他平台上发出更新版本并在生效前通过公告或以弹窗等其他适当方式提醒您相关内容的更新，请您及时访问以便了解最新的隐私权政策。若您不同意本隐私政策变更的内容，请您停止使用北莺南筑服务。
+七、联系我们
+  如果您对本隐私权政策有任何疑问、意见或建议，或您在使用我们提供的服务时，就您的个人信息的收集、使用、共享、访问、更正、撤销、删除等相关事宜有任何意见或建议，或您在使用我们提供的服务时遇到任何问题，您都可以通过信息安全负责人及客服电话4003783891与我们联系。</pre>
+            </div>
+        </div>
+
+
+        <div class="div55" style="width:100%;height:100%;background: #fff;position: fixed;
+        left:0;bottom:0;z-index: 99999;display: none">
+            <div style="height: 40px;text-align: center;
+            line-height: 40px;font-size: 16px;color: #000;font-weight: bold;
+            border-bottom: 1px solid #eee">
+                <span>北莺南筑用户服务协议</span>
+                <span class="gb3" style="font-weight: normal;float: right;color: #3880ff;position: relative;right: 20px;">
+                    关闭
+                </span>
+            </div>
+            <div style="    padding: 10px;
+    height: calc(100% - 40px);
+    overflow: scroll;" >
+                <div class="innerp" style="font-weight: bold;margin-bottom: 5px">北莺南筑用户服务协议</div>
+                <pre>
+《北莺南筑用户服务协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本服务协议的主体为本公司运营的“北莺南筑”平台的用户（以下称“用户”或“您”），本服务协议具有合同效力。请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中通过点击、确认、勾选、电子签章或其他类似任一方式确认即表示您已仔细阅读并明确同意遵守本协议。您承诺在注册之前认真阅读、理解并接受本服务协议的全部内容，如有任何疑问，可向我们咨询。但无论您事实上是否在注册之前认真阅读了本服务协议，一旦您通过北莺南筑网站以及相关网站、移动设备客户端、H5网页等界面点击勾选本服务协议并注册成为北莺南筑用户，即表示您同意并签署了本服务协议。您确认本服务协议后，本服务协议即在您和我们之间产生法律效力。 若您不接受或无法准确理解本服务协议的任何条款，请立即停止注册行为。 如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。
+北莺南筑有权根据法律法规、国家政策的变动、监管部门的要求、监管精神导向、行业协会要求、行业协会建议及北莺南筑运营需要不时修改或变更本服务协议正文及各类具体规则部分或全部（以下称“修订内容”），而无需另行单独通知您。除非另有规定，否则任何修订内容于平台在相关系统板块上发布之时立即生效。若您在修订内容发布后继续使用本公司服务的，即表示您已充分阅读、理解并接受修订内容，也将遵循修订内容使用我们提供的服务，同时对您在本协议修改前通过本公司进行的交易，您同意按照修订内容进行相应的授权和追认。如果您不同意修订内容的，您应当在履行完毕通过本公司与任意主体达成的约定义务的前提下，停止使用我们的服务或注销账号。如果您未就修改后的本服务协议向我们提出明确的异议，则视为您接受我们对本服务协议所做的修改，并应遵照修改后的协议履行应尽义务。北莺南筑保留随时修改或中断服务而不需通知用户的权利，北莺南筑行使修改或中断服务的权利，不需对用户或第三方负责。
+协议细则
+1.用户注册
+1.1 用户须满足的条件。您必须持有中国大陆有效身份证件（不包括香港特区、澳门特区及台湾地区），在使用北莺南筑服务前，您必须先在北莺南筑平台上进行注册。北莺南筑只接受持有中华人民共和国有效身份证的18周岁以上的具有完全民事权利和民事行为能力的自然人成为北莺南筑用户，如您不符合资格，请勿继续操作注册；如您不符合上述资格条件并已注册为北莺南筑用户，一经发现，我们有权拒绝为您提供服务、立即注销您的账号，并追究您使用我们服务的一切法律责任。
+1.2 您应当使用真实手机号码在北莺南筑进行注册，并设置相应的密码。注册成功后，您将获得一个独立的北莺南筑账号。您的账号及密码由您负责保管，您应当妥善保管您的账号和密码，绑定的手机号、手机验证码等信息。上述信息是您在本公司的唯一身份识别信息，您应妥善保管并正确使用与账户有关的一切信息，不得将账号、密码进行转让、出售、出借、出租、赠与、继承（账户内的相关财产权益可被依法继承）或授权给第三方使用，若您的账户存在上述被第三方使用的情形，您应对第三方在该账户下发生的所有行为负全部责任。因密码被遗忘、被第三方破解，使用的计算机被入侵等原因造成的交易风险均由您自行承担。任何经由您账号发出的一切指令均视为您本人的行为和真实意思表示，该等指令不可撤销，由此产生的一切责任和后果由您本人承担。
+1.3 若您发现有他人冒用或盗用您的账号，或您的手机或其他有关设备丢失时，您需要及时通知我们，我们会根据您的请求采取暂停或停止服务行动，但采取行动需要合理时间，同时我们对采取行动之前已执行的指令免于承担责任。
+2.关于我们的服务
+2.1 北莺南筑依托互联网向您提供互联网信息服务、积分服务等服务内容，包括但不限于接受您的借款申请信息并向第三方包括但不限于合作的第三方信息服务方、信托、消费金融公司等资金渠道进行导流推荐，并就前述服务内容提供技术服务支持、资信评估、签订和查阅合同、导流；将您的信息和/或您的借款申请一次性或多次推荐至一家或多家合作的第三方信息服务方，由您自主选择是否通过前述信息服务方提供的信息服务申请借款；北莺南筑平台根据您使用北莺南筑平台服务的情况可能会向您发放积分，并允许您可在北莺南筑平台及/或指定的其他服务平台中通过积分兑换方式获取您的各类权益等。服务内容由我们根据实际情况提供并不时更新、补充或删减，我们将定期或不定期根据您的意愿以电子邮件、短信、电话或站内信等方式为您提供服务信息，并向您提供相应服务。北莺南筑为您的借贷法律关系的达成所提供的服务，不代表明示或暗示北莺南筑为借贷法律关系的一方，相关交易的权利义务及交易风险（包括但不限于法律政策风险、信用风险、流动性风险、信息安全风险）由您自行承担。
+2.2 您使用北莺南筑或北莺南筑合作机构服务前需要进行实名认证、资信评估及银行卡绑卡等环节，您需要如实填写和提交认证/评估信息及绑卡信息，并对信息的真实性、合法性、准确性、完整性和有效性承担责任。并根据我们的要求，配合向我们提供有关证件及银行卡的原件、复印件、影印件等材料，以便我们核实您提供信息的真实性。因未能完成认证而无法享受我们的服务所造成的损失，我们不承担任何责任。
+2.3 您使用我们的服务应当：
+(1)自行配备上网的所需设备， 包括个人电脑、调制解调器或其他必备上网装置。
+(2)自行负担个人上网所支付的与此服务有关的电话费用、 网络费用。
+2.4 为了更好的向您提供服务，您授权并同意我们可收集、存储、使用、披露和保护您的个人信息（包含但不限于您本人提交的资料、本公司自行收集及本公司通过第三方收集的您的资料及信息），具体以您向我们确认并授权的《隐私政策》及《个人信息授权书》约定内容执行。
+2.5 为方便您登陆和使用相关产品/服务提供商的服务，您在此授权并委托本公司为提供服务之需，可以将您在北莺南筑平台填写的信息及根据《隐私政策》及《个人信息授权书》所获取的您的相关信息提交给我们委托的协助运营方、相关金融产品/信息服务提供商，并不可撤销的授权前述机构为您自动生成相关服务账号代码及初始密码（如有），以完成相关金融产品/服务/信息服务提供平台个人账户的注册。在用北莺南筑平台账号登陆并使用其他平台提供产品或服务时，除遵守本协议约定外，还应遵守该等平台服务协议的约定、平台公布的规则以及有关正确使用平台服务的说明和操作指引。北莺南筑平台和其他平台对可能出现的纠纷在法律规定和约定的范围内各自承担责任。
+2.6我们有权根据法律法规及国家政策的变动、监管部门的要求、行业协会的要求及/或运营需要对我们的服务内容进行调整，包括但不限于限制、改变、减少、终止或暂停提供北莺南筑服务的部分功能，或增加新的功能。除非另有其它明示规定，北莺南筑平台所展示的新项目、新功能、新服务，均受到本协议之规范。
+3.服务使用规则
+3.1 您在使用北莺南筑服务过程中，必须遵循国家的相关法律法规，不得在北莺南筑网站、论坛、客户端、H5页面等界面发表不当言论/行为，不得在北莺南筑平台上发布、复制、上传、散播、分发、存储、创建或以其它方式公开含有下列内容的信息：
+(1)反对宪法所确定的基本原则的；
+(2)危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；
+(3)损害国家荣誉和利益的；
+(4)煽动民族仇恨、民族歧视，破坏民族团结的；
+(5)破坏国家宗教政策，宣扬邪教和封建迷信的；
+(6)散布谣言，扰乱社会秩序，破坏社会稳定的；
+(7)散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+(8)侮辱或者诽谤他人，侵害他人合法权益的；
+(9)可能侵犯他人的专利、商标、商业秘密、版权或其它知识产权或专有权利的内容；
+(10)假冒任何人或实体或以其它方式歪曲您与任何人或实体之关联性的内容；
+(11)未经请求而擅自提供的促销信息、政治活动、广告或意见征集； 
+(12)任何第三方的私人信息，包括但不限于地址、电话号码、电子邮件地址、身份证号以及信用卡卡号；
+(13)病毒、不可靠数据或其它有害的、破坏性的或危害性的文件；
+(14)与内容所在的互动区域的话题不相关的内容； 
+(15)依我们的自行判断，足以令人反感的内容，或者限制或妨碍他人使用或享受互动区域或平台的内容，或者可能使我们或我们关联方或其他用户遭致任何类型损害或责任的内容； 
+(16)包含法律或行政法规禁止内容的其他内容。
+如您的某些行为或言论存在不合法、违反有关协议约定、侵犯北莺南筑的合法权益等情形，我们有权基于独立判断直接删除您作出的上述行为或言论，并有权中止、终止、限制您使用北莺南筑服务，而无需通知您，亦无需承担任何责任。
+3.2 您不得利用北莺南筑从事任何违法违规活动，您在此承诺合法使用北莺南筑提供的服务，不会泄露或非法使用基于本服务获得的信息，包括但不限于将信息进行出售、转售或用于任何其它商业目的或任何非商业目的，并将遵守中国现行法律、法规、规章、规范性文件的规定以及北莺南筑的规则、协议等规范。 若您违反上述规定，所产生的一切法律责任和后果由您自行承担。您承担法律责任的形式包括但不限于：对受到侵害方进行赔偿，给北莺南筑造成损失的，需赔偿北莺南筑的损失。此外，如北莺南筑首先承担了因您的行为导致的行政处罚或侵权损害赔偿责任后，您应向北莺南筑进行赔偿。北莺南筑保留将您违法违规行为及有关信息资料进行公示、计入您的信用档案、按照法律法规的规定提供给有关政府部门或按照有关协议约定提供给第三方的权利，且因此给您的个人信用造成影响或给您造成任何损失的，北莺南筑免于承担责任。
+3.3 您不得利用我们提供的服务从事下列危害互联网信息网络安全的活动：
+(1)未经允许，进入互联网信息网络或者使用互联网信息网络资源；
+(2)未经允许，对互联网信息网络功能进行删除、修改或者增加；
+(3)未经允许，对进入互联网信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加；
+(4)故意制作、传播计算机或手机病毒等破坏性程序；
+(5)其他危害互联网信息网络安全的行为。
+3.4 为保护公民信息及交易安全，针对我们有合理理由认为涉嫌存在使用限制情形的用户，我们保留要求用户提交补充相应证明信息或者文件的权利，上述证明信息或者文件包括但不限于身份证明文件、本人影像资料等，对于无理由不予提供的，我们有权采取拒绝向您提供服务、冻结您的账户等处理措施，涉嫌犯罪的，我们保留向司法机关控告的权利。
+3.5 您在使用在北莺南筑平台上由第三方提供的产品或服务时，除应遵守本服务协议外，还应遵守您与第三方签订的各项协议。若因您使用北莺南筑或要求北莺南筑提供特定服务时，我们可能会调用第三方系统或者通过第三方支持您的使用或者访问，使用或者访问的结果由该第三方提供，我们不保证通过第三方系统提供的服务及内容或支持实现的结果的安全性、准确性、有效性及其他不确定的风险，若因此发生的任何争议、纠纷及损失等，均与我们无关，我们亦不承担任何责任。
+3.6 因您违反本服务协议或相关服务条款的规定，导致或产生的任何第三方向我们主张的任何索赔、要求或损失（包括合理的律师费），应由您对第三方进行赔偿并使我们免责。若我们先行进行赔付的，将由您向我们进行赔偿，以使我们免受损害。对此，我们有权视用户行为的性质，采取包括但不限于删除用户发布信息内容、暂停使用许可、终止服务、限制使用、回收您的账号、追究法律责任等措施。对恶意注册北莺南筑账号或利用北莺南筑账号进行违法活动，骚扰、欺骗其他用户，以及其他违反法律规定及违反本协议的行为，我们有权回收其您的账号。同时，我们保留要求您承担相应法律责任的权利且我们会视监管及司法部门的要求，协助调查。
+3.7 您同意：为更加有效、及时的向您提供服务信息，我们将通过站内信、APP推送、手机短信、电子邮件等形式向您发布服务信息及北莺南筑相关信息、商业广告、市场推广活动信息等。
+4.用户信息与承诺
+4.1 您应如实向我们提供您的个人信息并保证信息真实、准确、完整、合法有效，并承诺对您提供的信息及时进行更新。如您提供的信息不合法、不真实、不准确、不详尽，或您未及时更新信息导致我们无法向您提供服务或服务指向、服务内容发生错误等，由此产生的法律责任和后果由您自行承担，我们亦有权终止您成为我们用户的资格。您在接受我们的服务期间，您本人的姓名、身份证号、手机号码、银行账户等信息如发生变更，您应在信息变更后2日内将相关信息提供给我们，若您未及时进行更新而带来的损失均由您自行承担。一旦我们发现您提供的信息存在虚假、无效、不完整和/或不准确等情形，我们保留因您提供的信息不实而随时中止或终止为您提供服务，并注销您账号的权利，由此所产生的损失由您自行承担，北莺南筑将不承担任何责任。
+4.2 北莺南筑不向在校学生提供借款服务，如您是在校学生，请您立即停止使用借款相关服务。如我们发现您（作为“借款人”）为在校学生或您提供的信息存在虚假或欺诈，我们有权在任何时候且无需通知您的情况下取消您的借款申请，并中止或终止您的用户资格，由此导致的一切后果和责任由您自行承担。
+4.3 您在接受我们的服务过程中应当诚实、守信地履行义务，否则，您可能承担相应的不利后果。您不得对我们的系统和程序采取反向工程手段进行破解，不得对上述系统和程序进行复制、修改、编译、整合或篡改，不得修改或增减我们系统的任何功能。
+4.4 我们有义务根据行政、司法机关的要求向该等机关提供您的资料及信息。
+4.5 您在接受我们的服务时必须遵守中国法律法规、规章以及政府规范性文件，不得作出违法违规的行为，具体如下：
+（1）发表、传达、传播、储存侵害他人知识产权、人身权、商业秘密等合法权益的内容；
+（2）伪造虚假身份、发布虚假信息等误导、欺骗他人，或违背北莺南筑页面公布之活动规则进行虚假交易；
+（3）进行危害计算机网络安全的行为。包括但不限于在用户发布的信息中含有蓄意毁坏、恶意干扰、秘密 地截取或侵占任何系统、数据或个人信息的任何病毒、伪装破坏程序、电脑蠕虫、定时程序炸弹或其他电脑程序。
+5.免责条款
+5.1 北莺南筑是一个开放平台，您将文章或照片等个人资料上传到互联网上，有可能会被其他组织或个人复制、转载、擅改或做其它非法用途，您必须充分意识此类风险的存在。作为网络服务的提供者，我们对您在任何论坛、个人主页或其它互动区域提供的任何陈述、声明或内容均不承担责任。您明确同意使用我们服务所存在的风险或产生的一切后果将完全由您自身承担，我们对上述风险或后果不承担任何责任。
+5.2 您违反本协议、违反道德或法律的，侵犯他人权利（包括但不限于知识产权）的，我们不承担任何责任。同时，我们对任何第三方通过北莺南筑平台为您提供服务或包含在第三方服务中的任何内容不承担责任。
+5.3 对您、其他用户或任何第三方发布、存储或上传的任何内容或由该等内容导致的任何损失或损害，我们不承担责任。
+5.4 对任何第三方通过我们可能对您造成的任何错误、中伤、诽谤、诬蔑、不作为、谬误、淫秽、色情或亵渎，我们不承担责任。
+5.5 我们不对任何用户及/或任何交易提供任何明示或默示的担保。北莺南筑平台向用户提供的各种信息及资料仅为参考，用户应依其独立判断做出决策。您据此进行交易的，产生的风险由您自行承担，您无权据此向我们提出任何法律主张。在交易过程中，交易各方发生的纠纷，由纠纷各方自行解决。北莺南筑不能完全保证平台内容的真实性、充分性、及时性、可靠性、完整性和有效性， 并且免除任何由此引起的法律责任。
+5.6 由于互联网本身所具有的不稳定性，我们无法保证服务不会中断。系统因有关状况无法正常运作， 使您无法使用任何我们的服务或使用我们的服务受到任何影响时，我们对您或第三方不负任何责任， 前述状况包括但不限于：
+（1）系统停机维护期间。
+（2）电信设备出现故障不能进行数据传输的。
+（3）由于黑客攻击、网络供应商技术调整或故障、网站升级、银行方面的问题等原因造成的本网站服务中 断或延迟。
+5.7 因任何非北莺南筑原因或因北莺南筑贷合理控制范围以外的原因（包括但不限于自然灾害（台风、地震、海啸、洪水）、罢工 或骚乱、暴动、战争行为、政府行为、通讯或其他设施故障或严重伤亡事故等）致使北莺南筑延迟或未能履约，造成的网络服务中断或其他缺陷，及其他我们不能预见、不能避免、不能克服的客观情况，我们不承担任何责任。
+5.8 因您的过错导致的任何损失由您自行承担，该过错包括但不限于：决策失误、操作不当、遗忘或泄露密码、密码被他人破解、您使用的计算机系统被第三方侵入、您委托他人代理交易时他人恶意或不当操作而造成的损失。
+5.9 我们不保证服务一定能满足您的要求，不保证服务不会中断，也不保证服务的及时性、安全性、准确性。
+5.10 任何情况下，因使用北莺南筑服务而引起或与使用北莺南筑服务有关的而产生的由我们负担的责任总额，无论是基于合同、保证、侵权、一般责任、严格责任或其它理论，均不得超过您因访问或使用北莺南筑服务而向我们支付的任何服务费用（如有）。
+5.11借款过程中遇到的任何预先收费均为诈骗行为，请保持警惕避免损失。
+5.12您根据我们提供的信息服务自主选择并向合作的第三方信息服务方申请借款的，应按其要求提供借款申请材料，您知悉并理解，该等借款申请由合作的第三方信息服务方受理、审核并自主决定借款额度、是否提供借款，与北莺南筑平台无关。北莺南筑平台将对第三方进行合理审慎的审核，但该等审核不能保证第三方提供的信息和服务的真实性、有效性和合法性。您应自主选择并确认是否同意按照第三方的相关协议和规则使用第三方提供的服务，并对使用该等服务的后果承担责任。第三方服务内容、产品、广告和其他任何信息均由第三方提供，由您自主判断并承担风险，与北莺南筑平台无关。
+6.知识产权及其它权利
+北莺南筑在其网站、链接、APP等界面中使用的商标或标记均为我们或其他特别注明的权利人所有。我们在我们网站、APP等中包含、展示的任何文字、图像、软件及其他资料均归我们及其他特别注明的权利人所有，仅供您根据本服务协议个人使用，我们及相应权利人并未通过本服务协议授予您对上述信息和内容的任何权利。未经我们及相应权利人书面同意，您不得以任何形式向任何第三方公开发表、传输、复制或以其他方式使用我们提供的全部或部分信息，不得更改、虚化或删除署名、商标、版权标识和/或其他权利声明。所有这些资料或资料的任何部分仅可作为个人或非商业用途而保存在某台计算机或其他电子设备内，否则，我们及/或权利人将追究您的法律责任。
+7、通知
+7.1 您同意北莺南筑以下列合理的方式向您送达各类广告、通知及推送：
+（1）北莺南筑平台公告的文案；
+（2）站内消息、推送消息；
+（3）根据您预留于北莺南筑的联系方式发出的电子邮件、短信、函件等。
+（4）您同意，北莺南筑有权在提供服务过程中以各种方式投放各种商业性广告或其他任何类型的商业信息（包括但不限于在北莺南筑平台的任何页面上投放广告），并且，您同意接收北莺南筑、北莺南筑关联公司及北莺南筑合作的第三方通过短信或其他方式向您发送的营销或其他相关商业信息。
+通知内容通过以上任一方式发出之日即视为送达日，您应及时关注我们通过以上方式送达的各类通知。
+8.服务变更、中断或终止
+8.1 如因升级的需要而需暂停网络服务、或调整服务内容，我们将尽可能在网站/APP上进行通告。由于您未能及时浏览通告而造成的损失，我们不承担任何责任。
+8.2 您明确同意，我们保留根据实际情况随时调整我们提供的服务内容、种类和形式，或自行决定授权第三方向您提供原本我们提供的服务。因业务调整给您或其他用户造成的损失，我们不承担任何责任。同时，我们保留随时变更、中断或终止为您提供全部或部分服务的权利。
+8.3 发生下列任何一种情形，我们有权单方面中断或终止向您提供服务而无需通知您，且无需对您或第三方承担任何责任：
+（1）您提供的个人信息不真实；
+（2）您违反本协议条款；
+（3）您未经我们书面同意，将北莺南筑平台用于商业目的；
+（4）您实施任何违反本服务协议的行为。
+8.4 您可随时通知我们终止向您提供服务或直接取消我们的服务。自您终止或取消服务之日起，我们不再向您承担任何形式的责任。
+8.5 您使用北莺南筑服务的行为若有任何违反国家法律法规或侵犯任何第三方的合法权益的情形时，我们有权直接删除该等违反规定之信息，并可以暂停或终止向您提供服务。
+8.6 北莺南筑结束对您的服务后，您使用北莺南筑服务的权利马上终止。从此时起，您没有权利，北莺南筑也没有义务传送任何未处理的信息或未完成的服务给您或第三方。
+9.隐私规则
+9.1 您有义务在注册时提供自己的真实信息，并保证诸如电子邮件地址、联系电话、联系地址、邮政编码等内容的有效性、安全性和及时更新，以便北莺南筑为您提供服务并与您进行及时、有效的联系。您应完全独自承担因通过这些联系方式无法与您取得联系而导致的您在使用本服务过程中遭受的任何损失或增加任何费用等不利后果。北莺南筑可能通过合作的第三方收集您的其他个人信息，以更好地了解北莺南筑用户，并为您度身订造北莺南筑服务、解决争议。北莺南筑仅收集北莺南筑认为就此目的及达成该目的所必须的关于您的个人信息。
+9.2 您同意北莺南筑可以自行或通过合作的第三方机构对您提交或北莺南筑搜集的用户信息（包括但不限于您的个人身份证信息等）进行核实，并对获得的核实结果根据本协议及有关文件进行查看、使用和留存等操作。北莺南筑有权按照您在北莺南筑上的行为自动追踪关于您的某些信息。北莺南筑有权利用这些信息进行有关北莺南筑之用户的统计、兴趣及行为的内部研究，以更好地了解您以便向您和北莺南筑的其他用户提供更好的服务。
+9.3 北莺南筑在北莺南筑的某些网页上使用诸如“Cookies”的信息收集装置，用于为您提供更好的服务而可能使用。“Cookies”是设置在您的硬盘上的小档案，以协助北莺南筑为您提供度身订造的服务。北莺南筑亦提供某些只能通过使用“Cookies”才可得到的功能。北莺南筑还利用“Cookies”使您能够在某段期间内减少输入密码的次数。“Cookies”还可以协助北莺南筑提供专门针对您的兴趣而提供的信息。如果您将个人通讯信息（例如：手机短信、电邮或信件）交付给北莺南筑，或如果其他用户或第三方向北莺南筑发出关于您在北莺南筑上的活动或登录事项的通讯信息，北莺南筑可以将这些信息收集在您的专门档案中。
+9.4 您同意北莺南筑可使用关于您的个人信息（包括但不限于北莺南筑持有的有关您的档案中的信息，及北莺南筑从您目前及以前在北莺南筑上的活动所获取的其他信息）以解决争议、对纠纷进行调停，并执行北莺南筑的服务协议及相关规则。北莺南筑有时候可能调查多个用户以识别问题或解决争议，特别是北莺南筑可审查您的信息以区分使用多个用户名或别名的用户。
+9.5 为限制在网站上的欺诈、非法或其他刑事犯罪活动，使北莺南筑免受其害，您同意北莺南筑可通过人工或自动程序对您的个人信息进行评价。您同意北莺南筑可以使用您的个人信息以改进北莺南筑的推广和促销工作、分析网站的使用率、改善北莺南筑的内容和推广形式，并使北莺南筑的网站内容、设计和服务更能符合用户的要求。这些使用能改善北莺南筑的网页，以调整北莺南筑的网页使其更能符合您的需求，从而使您在使用北莺南筑服务时得到更为顺利、有效、安全及度身订造的服务体验。
+9.6您同意北莺南筑利用您的信息与您联络并（在某些情况下）向您传递针对您的兴趣而提供的信息，例如：有针对性的广告条、行政管理方面的通知、服务提供以及有关您使用北莺南筑的通讯。您接受本协议即视为您同意收取这些资料。
+9.7北莺南筑对于您提供的、自行收集到的、经认证的个人信息将按照本协议及有关规则予以保护、使用或者披露。北莺南筑将采用行业标准惯例以保护您的个人信息，但鉴于技术限制，北莺南筑不能确保您的全部私人通讯及其他个人信息不会通过本协议中未列明的途径泄露出去。
+9.8您使用北莺南筑服务进行交易时，为便于北莺南筑核查您的的个人信息、信用情况、风险承受能力等促成交易的必要信息，以及便于北莺南筑履行必要义务，您在此不可撤销地授权北莺南筑将您的个人信息以及交易信息等必要信息提供给中国互联网金融协会互联网金融服务平台、北莺南筑合作的第三方征信平台、北莺南筑合作的其他大数据信息核查以及反欺诈核查公司、北莺南筑合作方委托的第三方催收公司、律师事务所等。北莺南筑有义务根据有关法律要求向司法机关和政府部门提供您的个人信息。在您未能按照与本协议、北莺南筑有关规则或者您应当签订的有关协议的约定履行自己应尽的义务时，北莺南筑有权根据自己的判断、有关协议和规则、国家生效裁决文书披露您的个人信息（包括但不限于在北莺南筑及互联网络上公布您的违法、违约行为，并将该内容记入任何与您相关的信用信息、档案或数据库），并且债权人可以采取通过司法部门要求北莺南筑提供相关信息，北莺南筑对此不承担任何责任。
+9.9您对其他用户信息的使用在北莺南筑提供的交易活动中，您无权要求北莺南筑提供其他用户的个人信息，除非符合以下条件：
+（1） 您已向法院起诉其他用户的在北莺南筑活动中的违约行为；
+（2） 与您有关的其他用户逾期未归还借款本息；
+（3） 北莺南筑被吊销营业执照、解散、清算、宣告破产或者其他有碍于您权益的情形。如您通过签署有关协议等方式获得其他用户的个人信息，您同意不将该等个人信息用于除还本付息或向借款人追索债权以外的其他任何用途，除非该等信息根据适用的法律规定、被有管辖权的法院或政府部门要求披露。
+10.法律适用及争议解决
+10.1本协议之效力、解释、执行均适用中华人民共和国法律。
+10.2如就本协议内容或其执行发生任何争议，应尽量友好协商解决；协商不成时，任何一方均可向上海市浦东新区人民法院提起诉讼。
+11.其他
+11.1本协议未尽事宜按照本公司现有及不时发布的各项规则执行。
+11.2本协议中的标题仅为方便而设，不影响对于条款本身的解释。
+11.3本协议采用电子合同方式。您在北莺南筑平台或北莺南筑合作平台注册页面或其他页面通过点击、确认、勾选、电子签章或其他类似任一方式签署的电子合同即视为您本人真实意愿并系为以您本人名义签署的协议，具有法律效力。您应妥善保管自己的密码等用户信息，您通过前述方式订立的电子合同对合同各方具有法律约束力，您不得以用户信息及登陆密码等被盗用或任何其他理由否认已订立的协议的效力或不按照该等协议履行相关义务。为免疑义，如您在北莺南筑平台签署的相关协议或授权书需使用北莺南筑或北莺南筑关联公司合作的第三方电子签章认证服务商提供电子签章服务的，则您不可撤销地授权我们为您向合作的电子签章认证服务机构为您申请电子签章及数字证书，您点击确认相关协议或授权的行为即视为您已同意授权我们和我们指定的电子签章认证服务商在相应的协议、授权上加盖您的电子签章。
+更新时间：【2023】年【12】月
+签订地：上海宝山区 </pre>
+            </div>
+        </div>
+
+
+        <div class="div66" style="width:100%;height:100%;background: #fff;position: fixed;
+        left:0;bottom:0;z-index: 99999;display: none">
+            <div style="height: 40px;text-align: center;
+            line-height: 40px;font-size: 16px;color: #000;font-weight: bold;
+            border-bottom: 1px solid #eee">
+                <span>极融用户注册协议及信用承诺书4</span>
+                <span class="gb4" style="font-weight: normal;float: right;color: #3880ff;position: relative;right: 20px;">
+                    关闭
+                </span>
+            </div>
+            <div style="    padding: 10px;
+    height: calc(100% - 40px);
+    overflow: scroll;" >
+                <div class="innerp" style="font-weight: bold;margin-bottom: 5px">极融用户注册协议</div>
+                <div class="innerp">《极融用户注册协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本协议的双方主体为极融云科信息技术有限公司（以下称“本公司”/“我们”）与本公司运营的“极融”平台的用户（以下称“您”/“用户”），本协议具有合同效力，请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中点击相应按钮即表示您已仔细阅读并明确同意遵守本协议。如果您不同意本协议的，请勿使用我们提供的所有服务，或您也可以主动选择取消我们为您提供服务。如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。</div>
+                <div class="innerp">《极融用户注册协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本协议的双方主体为极融云科信息技术有限公司（以下称“本公司”/“我们”）与本公司运营的“极融”平台的用户（以下称“您”/“用户”），本协议具有合同效力，请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中点击相应按钮即表示您已仔细阅读并明确同意遵守本协议。如果您不同意本协议的，请勿使用我们提供的所有服务，或您也可以主动选择取消我们为您提供服务。如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。</div>
+                <div class="innerp">《极融用户注册协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本协议的双方主体为极融云科信息技术有限公司（以下称“本公司”/“我们”）与本公司运营的“极融”平台的用户（以下称“您”/“用户”），本协议具有合同效力，请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中点击相应按钮即表示您已仔细阅读并明确同意遵守本协议。如果您不同意本协议的，请勿使用我们提供的所有服务，或您也可以主动选择取消我们为您提供服务。如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。</div>
+                <div class="innerp">《极融用户注册协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本协议的双方主体为极融云科信息技术有限公司（以下称“本公司”/“我们”）与本公司运营的“极融”平台的用户（以下称“您”/“用户”），本协议具有合同效力，请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中点击相应按钮即表示您已仔细阅读并明确同意遵守本协议。如果您不同意本协议的，请勿使用我们提供的所有服务，或您也可以主动选择取消我们为您提供服务。如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。</div>
+                <div class="innerp">《极融用户注册协议》包括正文及所有已经发布的或将来可能发布的各类具体规则，各类具体规则为本协议不可分割的一部分，与本协议具有同等法律效力（以下统称“本协议”）。本协议的双方主体为极融云科信息技术有限公司（以下称“本公司”/“我们”）与本公司运营的“极融”平台的用户（以下称“您”/“用户”），本协议具有合同效力，请您使用我们服务前仔细阅读本协议，您在注册为我们用户过程中点击相应按钮即表示您已仔细阅读并明确同意遵守本协议。如果您不同意本协议的，请勿使用我们提供的所有服务，或您也可以主动选择取消我们为您提供服务。如发生纠纷，您不得以未仔细阅读或理解本协议为由进行任何抗辩。</div>
+            </div>
+        </div>
+
+
+<sig-root _nghost-pvc-c0="" ng-version="7.2.15"><ion-app _ngcontent-pvc-c0="" class="app-wrapper default-theme ios ion-page hydrated" id="appMain"><ion-router-outlet _ngcontent-pvc-c0="" class="hydrated"><sig-login _nghost-pvc-c1="" class="ion-page" style="z-index: 101;overflow-y:scroll;"><ion-content _ngcontent-pvc-c1="" fullscreen="" class="ios hydrated" style="--offset-top: 0px; --offset-bottom: 0px;"><div _ngcontent-pvc-c1="" class="position-absolute content-bg">
+    <div _ngcontent-pvc-c1="" class="login-amount w-100"><img _ngcontent-pvc-c1="" alt="" width="100%" src="https://al-h5.geerong.com/h5/login-banner.d4a7532b5993ebee15ae.png"><ion-card _ngcontent-pvc-c1="" class="my-0 ng-invalid sc-ion-card-ios-h sc-ion-card-ios-s ios hydrated ng-touched ng-dirty">
+    <div class="div1" style="
+    padding-top: 32px;padding-bottom: 28px;">
+        <div class="div2" style="width: 90%;
+    background: #eee;
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 73px;overflow: hidden;">
+            <input type="text" class="input3 fo" name="" placeholder="请输入常用手机号" style="width: 94%;
+    background: #fff;
+    border: none;
+    height: 51px;
+    /* margin: 0 auto; */
+    position: relative;
+    left: 3%;
+    /* right: 0px; */
+    /* top: 20px; */
+    /* bottom: 0px; */
+    top: 4px;
+    padding-left: 15px;color: #000">
+        </div>
+        <div class="div27" style="width: 90%;display: none;
+    background: #eee;
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 73px;overflow: hidden;margin-top: 15px;margin-bottom: 15px;position: relative;">
+            <input placeholder="请输入图形验证码" type="text" class="input3" name="" style="width: 94%;
+    background: #fff;
+    border: none;
+    height: 51px;
+    /* margin: 0 auto; */
+    position: relative;
+    left: 3%;
+    /* right: 0px; */
+    /* top: 20px; */
+    /* bottom: 0px; */
+    top: 4px;
+    padding-left: 15px;color: #000">
+    <img  src="data:image/png;base64,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" style="    position: absolute;
+    right: 18px;
+    top: 17px;
+    width: 50px;
+    height: 30px;">
+        </div>
+        <div class="div27" style="width: 90%;display: none;
+    background: #eee;
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 73px;overflow: hidden;margin-top: 15px;margin-bottom: 15px;position: relative;">
+            <input placeholder="请输入短信验证码" type="text" class="input3" name="" style="width: 94%;
+    background: #fff;
+    border: none;
+    height: 51px;
+    /* margin: 0 auto; */
+    position: relative;
+    left: 3%;
+    /* right: 0px; */
+    /* top: 20px; */
+    /* bottom: 0px; */
+    top: 4px;
+    padding-left: 15px;color: #000">
+    <span style="    font-size: 12px;
+    color: #eee;
+    position: absolute;
+    top: 22px;
+    right: 24px;">获取验证码</span>
+     
+        </div>
+        <div class="div4" style="    margin-top: 10px;
+    margin: 0 auto;
+    width: 90%;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    background: #dcdcdc;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 20px;
+    line-height: 45px;">
+             测测你能借多少 
+        </div>
+        <div class="div5" style="margin-top: 10px;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 12px;
+    margin-top: 26px;">
+            <img style="display: inline-block;
+    width: 12px;
+    height: 12px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADOSURBVDhPrZSxDYQwEAS/UmKaIKUKSiAmpQdyukCk+5rz38sYEC//TWL5fLuc1sBLgVya7bs0TVLfS20rNU1a2VPn/IqT2Twn4TBIyyJtW6qzsqfOOX0lB7NxlLpOWtdP4QbO6aM/52vGk2jwSZ6gj/58QjMjA0Z/mqiEfnSeoZkRKlnUgA49mBm3RLg1oEMPZsaov2ZVgg49mBnv0T+4Pn6y0MxCbzP0PYOwL8AJ+zYdnsToZEG4Pikre+qc5xM5JzMgA0LllhBW/8/qkd5Q9F8wr+3rGQAAAABJRU5ErkJggg==" class="img10">
+            <span style="color: #dcdcdc" class="ty">我已阅读并同意</span>
+            <span style="color: #3880ff" class="xgxy">《北莺南筑相关协议》</span>
+        </div>
+
+        
+    </div>
+    <ion-card-content _ngcontent-pvc-c1="" class="ios card-content-ios hydrated" style="display:none"><ion-grid _ngcontent-pvc-c1="" class="ios hydrated"><ion-row _ngcontent-pvc-c1="" class="ios hydrated"><ion-col _ngcontent-pvc-c1="" class="ios hydrated border-danger"><ion-item _ngcontent-pvc-c1="" class="login-input item ios item-lines-none ion-focusable hydrated" lines="none" style="padding-top: 10px;padding-bottom: 10px;"><input _ngcontent-pvc-c1="" class="login-input-font bg-input w-100 ng-pristine ng-invalid ng-touched" formcontrolname="phone" maxlength="11" type="tel" placeholder="请输入常用手机号码"></ion-item></ion-col></ion-row><!----></ion-grid><ion-button _ngcontent-pvc-c1="" class="btn-submit ios button button-block button-solid button-disabled ion-activatable ion-focusable hydrated" expand="block" aria-disabled="true" disabled=""> 测测你能借多少 </ion-button><div _ngcontent-pvc-c1="" class="agreement d-flex"><ion-checkbox _ngcontent-pvc-c1="" formcontrolname="agreement" class="hydrated ng-dirty ng-touched ng-valid ios checkbox-checked interactive ion-dirty ion-touched ion-valid" role="checkbox" aria-checked="true" aria-labelledby="ion-cb-0-lbl"><input type="hidden" class="aux-input" name="ion-cb-0" value="on"></ion-checkbox><span _ngcontent-pvc-c1=""> 我已阅读并同意 <a _ngcontent-pvc-c1="">《极融注册相关协议》</a></span></div></ion-card-content></ion-card><div _ngcontent-pvc-c1="" class="reason"><h4 _ngcontent-pvc-c1="">为什么选择北莺南筑</h4><div _ngcontent-pvc-c1="" class="reason-in"><ul _ngcontent-pvc-c1="" class="reason-in-icon"><li _ngcontent-pvc-c1=""><div _ngcontent-pvc-c1="">
+    <img _ngcontent-pvc-c1="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjRFQUQwQjcyNzRBMzExRTk5QjVBRUI3MDQ2NTc3NjRGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjRFQUQwQjczNzRBMzExRTk5QjVBRUI3MDQ2NTc3NjRGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NEVBRDBCNzA3NEEzMTFFOTlCNUFFQjcwNDY1Nzc2NEYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NEVBRDBCNzE3NEEzMTFFOTlCNUFFQjcwNDY1Nzc2NEYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6GRcH7AAAPaElEQVR42tRbB1RVRxqGRxVFQQHh0QQFQUHAEs2xBBLXs+omJ7aYYowhx7rGSLAdMRoTE3Ut2DaWiLpuLEFRVHQToggqBjUqFhRQEAUUlCogXff7yX/NcH0PHk8QnXPm8Lh37r0z//zl+8vo6jRtU6Dro7dAN0E3Rjfga9R1edwT9CruFejl6I/QS9Er+X6TNN3nfcGTJ7Xnpqurq+DFtkZvM3r0aNehQ4f2tbGx6WRtbd3B1NS0XSs0PT09A2NjY0N6pqysrKK6urqyGK2oqCj33r17aVlZWckHDhyIDQsLu4khhdxL8b3Hsu/pNGsjAjARaEfborsvXrz48xMnThy+fft2ehXaEy1bZWVlFd5xJzo6OuLbb7+dgne78Tf0he82e6NdtET33rFjR3AK2pMmajdu3Ejevn37MnyrG7oFi1OzNT10c3SvgwcPbgHL3td0IaWlpeUPHjzIzc7Ovk+dfkMMyjV9HiJyb9++fRvxbU8SM9Y1L1QH0K4rV65c+QHaNMi2tbqBBQUFD9PT01NSU1MTQKSUS5cuJSclJWVFRUXlsNKrEZ8333zTonPnztZeXl6upC+cnZ097OzsnM3MzEzVvTsjIyMdHBEcFBQUhn+zWIE2uVanCXlBxo+o26H8/PyHsbGxR4ODg+dASfXAeCd0K1aMxsw9uoIc6/I1Yx5DY52hMHuuXr167unTp6MePnxYpO57v/32237mhpaNodjrYnkrf3//9zMzM9NVTQTsnP3zzz+vNzc374Ox9rwYPWmhDe38TXqHg6ura7+9e/duvH//fo6qb6elpaXA2ryNse2eRyTUNdLwtqtWrfoKslom/3gJGmRyK8b4SMpJ20WrIYSuoGy7R0RE/PfRo0el8nnAhBbDWgRgjA0Tr9EWbx8SErJcFeXj4+PP+vr6DsaY9o29cDXEIELYvIN25cqVC6rmBN30FemoxiACvcB2y5YtK1R9aNeuXZtwvzMDH92mXryMI+ib7vv37/+PqrmtWbNmAe5bP4840INWYPsFKlj+0bx584jVbF/ErtfDDQ4AXkEVFRWV8nnOnTt3GgMnrRRj6zFjxnwIiPpYLmd0nWVd0VyLlylKq4CAgMkgQoUMb5T16dNnMFuHBjUj9B4wZ7niCwmsjB07dgxTVSFC4WYkgMStlrNnz/5cvmHACrcZORo2RO6dzp07FyNnKWZ7C1GuXhICSESwhsh+owInEFCy01QfmC9atGiW/CXA+RtZ5hWqnKGXgADS5jkeOXJkj3z+48ePH8eYos5GzoU3WD9ffDghIeEia3sDdd7gS0IASTF6wotMFdcAOE6i4F6fabQC2tosl3sLC4s3OKih8woQgFqrIUOGDH+MJjON37D+Urv7PeQIC87GGsbmOi+SACxqJjzhdsy+hnLLU4eTp5SLArzOB7juoY4LLAjHyx4gj82L0eALIQBvBEFeD+iiyQA6G8LDw0OwEUvGjRs3jJwkdsgU9QREiFivAbOUylBiELvQz4CernA0ssXBhACZ+jovggAsZm7k62Muz8QXqqqqqq9evRo/f/78SRIIq0enWYMLdsuCKom43kkOjlotWLBgqjiwsLCwiByPuna/MQnAi/dOTEyM1yQoEhYWRlbJoZ75GXbs2NGXQmvisyNGjHiXXe+nze7333+PEgdFRUUdYodClCtD5ggl74Cynm7LnlkbMY6nhu3dsDtXGxIi27x581LWT7p16AKnixcvnhWfA1f8JOk1fWb/tm5ubj7ik2DDvRTQES618PT0dF+9enWAsbGxFahaXW+4CU1fX//J3bt3L44cOXID/r1HsU5V2APWJ6BTp05dxYuQgtzk5OQrxcXFD62trR29vb29xPvQCTNAhMi4uLhYCi6rYlD0vFOnTkXg2V7SRXd399fxxwz9Qc3Cpk+f/rFIIQo6cIRFBD2Ot27dStA2oAllFkyEVoXlDQ0NfSgkLo4/c+YMLaoPszlxUuepU6dOI9EUxx0/fjycvT617nzLli17UxxSiDZXdu/e3VcSn7ahoaE/iC8FRU/wh//SkgpFl+eJ6GInz5M4qCBAS2jmQFlkiTagN/kkMrNoBcswXxyblZWVzQCnLo/PBbolUXwuODh4Fum+Gltrb2/vLo5OS0u7ij8l4jVgivzo6OhQbX3rEydO7OFsj7y1AEt6ixf++OOPUxTzxDzLBWVLCZFc+COHAVQLpevt0AYNGqSsB+eXwClKEi+4uroSh5sQCxhbWlraiTeTkpKucVpKbLl+fn6zQkJCzrZq1coRE9LIx9bT06uGcrsI3/xX/Fusagh0Si13FbY7T4gYixanGnqkDNJSYm5uXmPLoWP0HBwcTOvhgFJA4eRakNfKqgOtnQhgaGpqaibdIHcSInBTRYiZ/s/47LPPNrA10DTI8JhzfeXytBa3yoKCgvviBaVS2ZE4g5ToEwHt4F8jLNgCk7eUrgG5lkVGRt7j76hr5Xfu3LklXmjTpo2lhCO6UYRHCGkX4kPemi6wEey/8ZQpUz6QBzJcXFze5sSLgudCdtvt5MmTR2W65SqH3etEhZ988slw0TWASGRwqk3Hu7y8vELIupBS6VJHToCUo2sDugtjAeM6ML+L3HuDInwAcDaTI81d+/btOxh+/f/kynXx4sWBGri5iv79+78hWgIysfReoqw3bpyRMrWU4rKxsfHDz2uyl7QBBH137NixgUZGRmYkKhoFFhUKnZycnOQxY8bMunbt2nVRsQms3XratGkjly9fvtHAwKAWssN8HlAoHmxvZWJiYiTei4+Pj/Px8fkIP8nVra4HknTLzc2Nhu4wY9EphXnso8MEKJM5QF1VKDNX2OA8bc1gbGwsWRBLdWJAniicsV81fV9RUREBnxHsOGkS6fEg8yq6+eToKf60cI8fCwvVJwAn1wF4RoGdN9HWDJqZmT2TrND9s5EFcAWgWTBgwIDeGgctjYz0wVGLZsyYMYSJUJdPoEvjAbgMBGVfJRVeeIgRIOKGHj16DFBBVQt4hwtx/1FDdz8vL+/+7NmzRxPwkIMgQmQwUWnachbVH6xfv/5b9j3UcYIedIivmIHGnMjUdiWqVVFqCztUIxvQBUYggM358+cN2Hw9TfT6+/uvA2r8BSDCERTUKMAIqlcCdV3Bz7siECKTRsrv8OHDO4HzbeTPwYE5n5CQEHvu3LlLQK4VdnZ27YHnX0PvDzNpI3Cs3qRJk+ZBdPOho7bhUr6Kkhp9PKcEFzyNDBOWkLCG8/Xr1y/LYOJc1viqvCs9xgFGGnYDFVEcIp4D8MYxFUnO2wEBARPZerQVaotMGfN779y580d5+Js4F86ar9zNlXIca9eunSeOp7iCZD6VMTExh8Wb4eHh29SEwXSFwiex2EldN5CnwpkAJhMmTPhQRQUIBSt6sllT1OE6286ZMydQToSzZ88eZzMtxzBWhw4d2qHC3behST6CDSaTN+Sp2+fo2JUpL0+SmoPKDj179lTCIlRrAIN1IQLVO3bsuAmWJ7RXzGjQHIhyvDiW8v8AP/74SR5naR3Aq5Lc6iVLluxycnKyBSEDpHu9evXyHThwYJejR49my8S3FeByLWwDz/aqJJJGhJJkBQ7kbHjLlIrlnj17/kWpMVI8AE+VmnRqAFd34HK/w0Sld3YD/C2UBTdqwm8NQJC0IR4QmVview4cOLCVkzcigOsOAtdyt0eNGvWOlC2qiQdSrY44ICgoaLKYUyN3GOuu1FZbX758+Tin0I2++OKLWtCXJsesr99AGN1206ZNy8R3QZ9dkUFj0++++y5AHHMXjdFuTU0fsWQ+++tP2+DBg4cxFpe0djUUTam2OADIq5C1sxHcX1fxXkpKCjlfZIqrGvjaYrD7aRHHAOlZyXIY5m+99dYw8aHExMRzkrWQwEMhWCesX79+f5cGAWL2Za1L8lQJhXMf1J7z3nvvfQm5bq3pDMmhAwRNCQwM/J5EnbS0hYVFrUgzOKtQywKnKihsqkWsxpxqxLU1GsydAcSvxgoDWtt6eXnVAlhAnKFceFlLTroQa4isAnPzb0GeFBzcdGL20bS7cUjLhLVzyw0bNkwXv4Nd3NoQ+ZeJgQv0ydMsdmZmZipcZmdJ+1PpjvgtuMVpnOZ7Bse02759+yqZMsxjb8ygsdxhNosOx44d2wrrcxOAJ5KjM4ZaEsAMMu6PdyXdvHnz0rhx44YyZiAF11Ou/MDF36tLj5E4dCdUKMsKr2/s1JhQ8NShLle5ASm01mz/7Vhx0zUbiPVPsg0t4FoBtX6D5a5du2qlxyhWYG9v76cCF7zMydGW8P/fJt0groUKverLdBGrd4OfUKsyBF5XPMvyq5Ie75qamnpDVl57l918/Xo914ULFwaqqQh7FQokHCIiInbK5w/sMUGTAglJppzOnDlz/BUskWm/fPnyr+Xzjo6OPsQ6QuOSOfLiustFgfzpj9CEYOVLVSQ1c+bMqcAr1SpY36shRVJ1lsmRWXkfTarJfVnK5AC0JovBXVbg5X5+fv8gZ+h5CiW/VhGPK4E7Oo2jMM1eKLl06VKVhZLz588P4I3SuoKcqGu/e/fuH+QvJ84ARviBQ98tmqlUtovc1guAZ0k9YTKNG5k+R1VEoAYkF9e7d++/MVh6UcXSyuHDhw+jqE4di7fTxOQ1hAj2a9as+VouZ6wXisLCwn7kGEK7JiyXt4Jz1ZPiiGIoX1YuH8g732iLr3VgYuLEiR/BZ8pURXlcvwcHai2fErFl5fM8Byb0JZjr6en5BhybEHiWec1xYEJUjDQhn9jY2Mg6jsxQKv2XZcuWfclc0UE4MmOkwZEZCpw4A4K/vm7duq/i4uJiSPGq+15kZOQ+bY/MaKsdaRG2mNzHo0aN+qeYrZU3YIkCuKA3KAaXnZ2dduHChWS07JiYmFwhBa4/aNAgSzc3N6WHh4eLUqns1KFDBw8QwBnuvdpK7/T09Dvbtm1bCW1PZ4ZeyKEpuUiQW+kNmdxOKTVNQmMUvSH5peSkdGwuJycnj06Pahpeg89/Fzpng04jHJtrjGbI7O0TGhq6FrKodZZHgzKbROz4Ep2X5OBkLV+AJ0MKqMuKFStmnDx58peMjIxMeb1uQxqBGyJoVFTUAS6O7MwwvNGOzjbF4Wk9BikUlTH79NNP3QcOHPi6tbW1a/v27R1MTU3b8uFpfSlVRT4GhdpLSkpgUR/mAb/fApsnHzx48GR4ePgtjt9RPLHRD0839dFrBXOGdHzeiEVGX7IEQhlNtc5fx+fLOGlBf5v0+Pz/BRgAB9i4acqEqSQAAAAASUVORK5CYII="></div><h5 _ngcontent-pvc-c1="">轻松借款</h5><p _ngcontent-pvc-c1="">凭身份证即可申请</p></li><li _ngcontent-pvc-c1=""><div _ngcontent-pvc-c1=""><img _ngcontent-pvc-c1="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjRFQUQwQjZFNzRBMzExRTk5QjVBRUI3MDQ2NTc3NjRGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjRFQUQwQjZGNzRBMzExRTk5QjVBRUI3MDQ2NTc3NjRGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Rjk1NzhEODk3NDZFMTFFOTlCNUFFQjcwNDY1Nzc2NEYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Rjk1NzhEOEE3NDZFMTFFOTlCNUFFQjcwNDY1Nzc2NEYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5EDmeTAAANMElEQVR42uRbCVAU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"></div><h5 _ngcontent-pvc-c1="">直接放款</h5><p _ngcontent-pvc-c1="">持牌机构</p></li><li _ngcontent-pvc-c1=""><div _ngcontent-pvc-c1=""><img _ngcontent-pvc-c1="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjRFQUQwQjc2NzRBMzExRTk5QjVBRUI3MDQ2NTc3NjRGIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjRFQUQwQjc3NzRBMzExRTk5QjVBRUI3MDQ2NTc3NjRGIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NEVBRDBCNzQ3NEEzMTFFOTlCNUFFQjcwNDY1Nzc2NEYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NEVBRDBCNzU3NEEzMTFFOTlCNUFFQjcwNDY1Nzc2NEYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5quaYjAAAL6UlEQVR42uRbCVBU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">
+    </div><h5 _ngcontent-pvc-c1="">审核快</h5><p _ngcontent-pvc-c1="">智能审核</p></li></ul></div></div><footer _ngcontent-pvc-c1="" class="login-footer my-3 px-3"><span _ngcontent-pvc-c1=""> 上海北莺南筑网络科技有限公司 沪ICP备案：18049562号-1 贷款有风险，借款需谨慎 请根据个人能力合理贷款，理性消费，避免逾期 贷款额度、放款时间以实际审批结果为准 </span><br _ngcontent-pvc-c1=""><span _ngcontent-pvc-c1="" style="color:red">平台提供信息服务，资金由湖南三湘银行等持牌机构提供，实际放款方以借款合同约定为准。</span><br _ngcontent-pvc-c1=""></footer></div></div></ion-content></sig-login></ion-router-outlet></ion-app></sig-root>
+<noscript>Please enable JavaScript to continue using this application.</noscript>
+<script type="text/javascript" src="https://al-h5.geerong.com/h5/runtime.b6d2fbabbc423d1a0929.js"></script><script type="text/javascript" src="https://al-h5.geerong.com/h5/polyfills.c3529a446c2d43f44c3c.js"></script><script type="text/javascript" src="/h5/main.7d4b0316d8d7893d0edf.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+    var ENV = 'prod'; // local/本地, dev/一测 ,preprod/2测,prod/线上
+    localStorage.setItem('env', ENV);
+</script>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+    $(".img10").click(function(){
+        var imageSrc = $(".img10").attr("src");
+        if (imageSrc === "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADOSURBVDhPrZSxDYQwEAS/UmKaIKUKSiAmpQdyukCk+5rz38sYEC//TWL5fLuc1sBLgVya7bs0TVLfS20rNU1a2VPn/IqT2Twn4TBIyyJtW6qzsqfOOX0lB7NxlLpOWtdP4QbO6aM/52vGk2jwSZ6gj/58QjMjA0Z/mqiEfnSeoZkRKlnUgA49mBm3RLg1oEMPZsaov2ZVgg49mBnv0T+4Pn6y0MxCbzP0PYOwL8AJ+zYdnsToZEG4Pikre+qc5xM5JzMgA0LllhBW/8/qkd5Q9F8wr+3rGQAAAABJRU5ErkJggg==") {
+          $(".img10").attr("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADLSURBVDhPrZMxDoQwDATvpXQUFLyCFiEKCv5BgcSj+MKeNpIviWMHdMpKWzjEI2tNPmgsE3jfwLIAfQ90XTRrnvO7pwK47znEM+9ZyoDTZDd75n2tH/DtZNp60gBkJtblt04zDUAGbV30PM95zX5RAOpt1kzYeQLjGM/YLwrAtKFmCyYWucBhyOsajBaZwHUFjiNCn2C0yM1QoNv2DCsy9LZM6HXVYXSx5eb/IdX0pYiavmXR20n1ZKICSDETBq23z5rnaWZaJvB/AV9hi8wdW5AWDAAAAABJRU5ErkJggg==");
+        } else {
+          $(".img10").attr("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADOSURBVDhPrZSxDYQwEAS/UmKaIKUKSiAmpQdyukCk+5rz38sYEC//TWL5fLuc1sBLgVya7bs0TVLfS20rNU1a2VPn/IqT2Twn4TBIyyJtW6qzsqfOOX0lB7NxlLpOWtdP4QbO6aM/52vGk2jwSZ6gj/58QjMjA0Z/mqiEfnSeoZkRKlnUgA49mBm3RLg1oEMPZsaov2ZVgg49mBnv0T+4Pn6y0MxCbzP0PYOwL8AJ+zYdnsToZEG4Pikre+qc5xM5JzMgA0LllhBW/8/qkd5Q9F8wr+3rGQAAAABJRU5ErkJggg==");
+        }
+    })
+    $(".ty").click(function(){
+        var imageSrc = $(".img10").attr("src");
+        if (imageSrc === "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADOSURBVDhPrZSxDYQwEAS/UmKaIKUKSiAmpQdyukCk+5rz38sYEC//TWL5fLuc1sBLgVya7bs0TVLfS20rNU1a2VPn/IqT2Twn4TBIyyJtW6qzsqfOOX0lB7NxlLpOWtdP4QbO6aM/52vGk2jwSZ6gj/58QjMjA0Z/mqiEfnSeoZkRKlnUgA49mBm3RLg1oEMPZsaov2ZVgg49mBnv0T+4Pn6y0MxCbzP0PYOwL8AJ+zYdnsToZEG4Pikre+qc5xM5JzMgA0LllhBW/8/qkd5Q9F8wr+3rGQAAAABJRU5ErkJggg==") {
+          $(".img10").attr("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADLSURBVDhPrZMxDoQwDATvpXQUFLyCFiEKCv5BgcSj+MKeNpIviWMHdMpKWzjEI2tNPmgsE3jfwLIAfQ90XTRrnvO7pwK47znEM+9ZyoDTZDd75n2tH/DtZNp60gBkJtblt04zDUAGbV30PM95zX5RAOpt1kzYeQLjGM/YLwrAtKFmCyYWucBhyOsajBaZwHUFjiNCn2C0yM1QoNv2DCsy9LZM6HXVYXSx5eb/IdX0pYiavmXR20n1ZKICSDETBq23z5rnaWZaJvB/AV9hi8wdW5AWDAAAAABJRU5ErkJggg==");
+        } else {
+          $(".img10").attr("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADOSURBVDhPrZSxDYQwEAS/UmKaIKUKSiAmpQdyukCk+5rz38sYEC//TWL5fLuc1sBLgVya7bs0TVLfS20rNU1a2VPn/IqT2Twn4TBIyyJtW6qzsqfOOX0lB7NxlLpOWtdP4QbO6aM/52vGk2jwSZ6gj/58QjMjA0Z/mqiEfnSeoZkRKlnUgA49mBm3RLg1oEMPZsaov2ZVgg49mBnv0T+4Pn6y0MxCbzP0PYOwL8AJ+zYdnsToZEG4Pikre+qc5xM5JzMgA0LllhBW/8/qkd5Q9F8wr+3rGQAAAABJRU5ErkJggg==");
+        }
+    })
+
+
+    $(".img12").click(function(){
+        var imageSrc = $(".img12").attr("src");
+        if (imageSrc === "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAARCAYAAAAsT9czAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC6SURBVEhLvZPBDYQwDATTMR3wog/eNEABNMCHHnjQAZ/lloQTBAfs5HQjGSkG7xAUHP7ILltXYFn29U+JM908A00DVBXQtqFbyDgCde0zuy40P7i+982jSoUUnfNYB45bjW/mCiXRZWe8SA9ZhZqM72ksEWpnL0c/R2iZuf1nlmHry91kRBOS8xVEGXkKyxGRpIykQqWehkcZkYTn0orIq4ykhBYRUclILLSKiFpGpslLhiE0jJhkZQAbAjal65gmrMIAAAAASUVORK5CYII=") {
+          $(".img12").attr("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAYAAACORR0GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACxSURBVEhLzdO9DYMwEIZhb8wM9OxARUVHwxgUSDACI1C+UQKHIPHPHSQon3QS2PgebMmOm/K/0DStD8aYoLKELIM8h65bB5VRQ4Lsy4KpIB8ipcWSUAyR0mBRKHRcZ44xCKWaWTEvpG1iwT4g659qvz9AVkSiWbdBZxFJav0LuopIYn3cMIQnz+QdK4pl3I3jceIKItljGzTP0DRQVfDc3bfStlDX0PfLu/ce/SI3QfAALAMxeNk3ku0AAAAASUVORK5CYII=");
+          $(".div12").height(160)
+        } else {
+          $(".img12").attr("src", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAARCAYAAAAsT9czAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAC6SURBVEhLvZPBDYQwDATTMR3wog/eNEABNMCHHnjQAZ/lloQTBAfs5HQjGSkG7xAUHP7ILltXYFn29U+JM908A00DVBXQtqFbyDgCde0zuy40P7i+982jSoUUnfNYB45bjW/mCiXRZWe8SA9ZhZqM72ksEWpnL0c/R2iZuf1nlmHry91kRBOS8xVEGXkKyxGRpIykQqWehkcZkYTn0orIq4ykhBYRUclILLSKiFpGpslLhiE0jJhkZQAbAjal65gmrMIAAAAASUVORK5CYII=");
+          $(".div12").height(120)
+        }
+    })
+
+$(".xgxy").on("click",function(){
+    $(".bg1").fadeIn(100);
+    $(".bg2").slideDown(250)
+})
+$(".close").on("click",function(){
+    $(".bg1").fadeOut(100);
+    $(".bg2").slideUp(250)
+})
+
+
+$(".inner1").on("click",function(){
+
+    $(".bg1").fadeOut(100);
+    $(".bg2").slideUp(250);
+    $(".div33").slideDown(300);
+})
+$(".gb1").on("click",function(){
+     $(".div33").slideUp(200);
+})
+
+$(".inner2").on("click",function(){
+    $(".bg1").fadeOut(100);
+    $(".bg2").slideUp(250)
+    $(".div44").slideDown(300);
+})
+$(".gb2").on("click",function(){
+    $(".div44").slideUp(200);
+})
+
+$(".inner3").on("click",function(){
+    $(".bg1").fadeOut(100);
+    $(".bg2").slideUp(250)
+    $(".div55").slideDown(300);
+})
+$(".gb3").on("click",function(){
+    $(".div55").slideUp(200);
+})
+
+$(".inner4").on("click",function(){
+    $(".bg1").fadeOut(100);
+    $(".bg2").slideUp(250);
+    $(".div66").slideDown(300);
+})
+$(".gb4").on("click",function(){
+    $(".div66").slideUp(200);
+})
+
+$('.fo').on('keyup', function() {
+    var inputLength = $(this).val().length;
+    console.log(inputLength)
+    if (inputLength == 11) { // 假设需要长度大于5时显示内容
+      $('.div27').show();
+    } else {
+      $('.div27').hide();
+    }
+  });
+
+</script>
+
+</body><!--<script>--><!--    var style = document.createElement('style');--><!--     if (!window.HTMLShadowElement) { // 不支持Shadow Dom--><!--        style.textContent = '.customer-toast { &#45;&#45;background: rgba(35, 38, 43, .8); &#45;&#45;max-width: 60%; color: #fff;} .customer-toast .toast-wrapper{position: absolute;  left: 50% !important; right: unset !important; transform: translate(-50%, 0%) !important;width: 100%;background: none;} .customer-toast .toast-container{  display: inline-block;border-radius: 4px; position: relative; margin: 0 20px;  left:50% !important; transform: translate(-50%, 0%) !important;right: unset; background: rgba(35, 38, 43, .8) !important;}';--><!--    } else {--><!--        style.textContent = '.customer-toast {&#45;&#45;background: transparent !important; max-width: 60%; &#45;&#45;max-width: 60%; color: #fff;} .customer-toast .toast-wrapper{ position: absolute;  left: 50% !important; right: unset !important ;transform: translate(-50%, 0%) !important; width: 100%;background: none;} .customer-toast .toast-container{  display: inline-block;border-radius: 4px; position: relative; margin: 0 20px;  left:50% !important;   transform: translate(-50%, 0%) !important;right: unset;background: rgba(35, 38, 43, .8) !important;}';--><!--    }--><!--    document.body.appendChild(style);--><!--</script>--></html>
